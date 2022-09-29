@@ -1,0 +1,220 @@
+$utilities : (
+    "u1" : (
+        "property" : "padding",
+        "prefix" : "p",
+        "values" : (
+            "0" : 0,
+            "1" : $base-padding ,
+            "2" : $base-padding * 2 ,
+            "3" : $base-padding * 4 ,
+            "4" : $base-padding * 6 ,
+            "5" : $base-padding * 8 ,
+        ),
+    ),
+    "u2" : (
+        "property" : "padding-left",
+        "prefix" : "ps",
+        "values" : (
+            "0" : 0,
+            "1" : $base-padding ,
+            "2" : $base-padding * 2 ,
+            "3" : $base-padding * 4 ,
+            "4" : $base-padding * 6 ,
+            "5" : $base-padding * 8 ,
+        ),
+    ),
+    "u3" : (
+        "property" : "padding-right",
+        "prefix" : "pe",
+        "values" : (
+            "0" : 0,
+            "1" : $base-padding ,
+            "2" : $base-padding * 2 ,
+            "3" : $base-padding * 4 ,
+            "4" : $base-padding * 6 ,
+            "5" : $base-padding * 8 ,
+        ),
+    ),
+    "u4" : (
+        "property" : "padding-top",
+        "prefix" : "pt",
+        "values" : (
+            "0" : 0,
+            "1" : $base-padding ,
+            "2" : $base-padding * 2 ,
+            "3" : $base-padding * 4 ,
+            "4" : $base-padding * 6 ,
+            "5" : $base-padding * 8 ,
+        ),
+    ),
+    "u5" : (
+        "property" : "padding-bottom",
+        "prefix" : "pb",
+        "values" : (
+            "0" : 0,
+            "1" : $base-padding ,
+            "2" : $base-padding * 2 ,
+            "3" : $base-padding * 4 ,
+            "4" : $base-padding * 6 ,
+            "5" : $base-padding * 8 ,
+        ),
+    ),
+    "u6" : (
+        "property" : "padding",
+        "prefix" : "px",
+        "values" : (
+            "0" : 0,
+            "1" : 0 $base-padding ,
+            "2" : 0 $base-padding * 2 ,
+            "3" : 0 $base-padding * 4 ,
+            "4" : 0 $base-padding * 6 ,
+            "5" : 0 $base-padding * 8 ,
+        ),
+    ),
+    "u7" : (
+        "property" : "padding",
+        "prefix" : "py",
+        "values" : (
+            "0" : 0,
+            "1" : $base-padding 0 ,
+            "2" : $base-padding * 2  0,
+            "3" : $base-padding * 4  0,
+            "4" : $base-padding * 6  0,
+            "5" : $base-padding * 8  0,
+        ),
+    ),
+    "u8" : (
+        "property" : "margin",
+        "prefix" : "m",
+        "values" : (
+            "0" : 0,
+            "1" : $base-margin ,
+            "2" : $base-margin * 2 ,
+            "3" : $base-margin * 4 ,
+            "4" : $base-margin * 6 ,
+            "5" : $base-margin * 8 ,
+        ),
+    ),
+    "u9" : (
+        "property" : "margin-left",
+        "prefix" : "ms",
+        "values" : (
+            "0" : 0,
+            "1" : $base-margin ,
+            "2" : $base-margin * 2 ,
+            "3" : $base-margin * 4 ,
+            "4" : $base-margin * 6 ,
+            "5" : $base-margin * 8 ,
+        ),
+    ),
+    "u10" : (
+        "property" : "margin-right",
+        "prefix" : "me",
+        "values" : (
+            "0" : 0,
+            "1" : $base-margin ,
+            "2" : $base-margin * 2 ,
+            "3" : $base-margin * 4 ,
+            "4" : $base-margin * 6 ,
+            "5" : $base-margin * 8 ,
+        ),
+    ),
+    "u11" : (
+        "property" : "margin-top",
+        "prefix" : "mt",
+        "values" : (
+            "0" : 0,
+            "1" : $base-margin ,
+            "2" : $base-margin * 2 ,
+            "3" : $base-margin * 4 ,
+            "4" : $base-margin * 6 ,
+            "5" : $base-margin * 8 ,
+        ),
+    ),
+    "u12" : (
+        "property" : "margin-bottom",
+        "prefix" : "mb",
+        "values" : (
+            "0" : 0,
+            "1" : $base-margin ,
+            "2" : $base-margin * 2 ,
+            "3" : $base-margin * 4 ,
+            "4" : $base-margin * 6 ,
+            "5" : $base-margin * 8 ,
+        ),
+    ),
+    "u13" : (
+        "property" : "margin",
+        "prefix" : "mx",
+        "values" : (
+            "0" : 0,
+            "1" : 0 $base-margin ,
+            "2" : 0 $base-margin * 2 ,
+            "3" : 0 $base-margin * 4 ,
+            "4" : 0 $base-margin * 6 ,
+            "5" : 0 $base-margin * 8 ,
+        ),
+    ),
+    "u14" : (
+        "property" : "margin",
+        "prefix" : "my",
+        "values" : (
+            "0" : 0,
+            "1" : $base-margin 0 ,
+            "2" : $base-margin * 2  0,
+            "3" : $base-margin * 4  0,
+            "4" : $base-margin * 6  0,
+            "5" : $base-margin * 8  0,
+        ),
+    ),
+    "u15" : (
+        "property" : "opacity",
+        "prefix" : "o",
+        "values" : (
+            "10" : 0.1,
+            "20" : 0.2 ,
+            "30" : 0.3,
+            "40" : 0.4,
+            "50" : 0.5,
+            "60" : 0.6,
+            "70" : 0.7 ,
+            "80" : 0.8,
+            "90" : 0.9,
+            "100" : 1,
+        ),
+    ),
+    "u16" : (
+        "property" : "font-size",
+        "prefix" : "fs",
+        "values" : (
+            "sm" : $font-size-sm,
+            "md" : $base-font-size ,
+            "lg" : $font-size-lg,
+            "xl" : $font-size-xl,
+            "xxl" : $font-size-xxl,
+        ),
+    ),
+    "u17" : (
+        "property" : "text-align",
+        "prefix" : "text",
+        "values" : (
+            "center" : center,
+            "end" : right ,
+            "left" : start,
+        ),
+    ),
+);
+
+
+@each $u , $map in $utilities {
+    $property : map-get($map , "property");
+    $prefix : map-get($map , "prefix");
+    $values : map-get($map, "values");
+
+    @each $k , $v in $values {
+        
+        .#{$prefix}-#{$k} {
+            #{$property} : $v 
+        }
+    }
+}

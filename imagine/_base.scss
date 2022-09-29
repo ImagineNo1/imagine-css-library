@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@1,600&family=Noto+Serif+HK:wght@200&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    
+    font-family: 'Lora', serif;
+    font-family: 'Noto Serif HK', serif;
+}
+
+ul {
+    padding: 0;
+    list-style-type: none;
+  }
+  
+  a {
+    text-decoration: none;
+  }
+  
+  img {
+    max-width: 100%;
+  }

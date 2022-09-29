@@ -1,0 +1,33 @@
+$checkpoints : (
+    "xs" : 0,
+    "sm" : 480px ,
+    "md" : 720px,
+    "lg" : 960px,
+    "xl" : 1200px,
+);
+
+@mixin xs {
+    @media(min-width: map-get($checkpoints,"xs")){
+        @content;
+    }
+}
+@mixin sm {
+    @media(min-width: map-get($checkpoints,"sm")){
+        @content;
+    }
+}
+@mixin md {
+    @media(min-width: map-get($checkpoints,"md")){
+        @content;
+    }
+}
+@mixin lg {
+    @media(min-width: map-get($checkpoints,"lg")){
+        @content;
+    }
+}
+@mixin xl {
+    @media(min-width: map-get($checkpoints,"xl")){
+        @content;
+    }
+}
