@@ -45,3 +45,258 @@
     }
 
 }
+
+@include xs {
+        // text and background colors
+
+        @each $key , $val in $colors {
+
+            .text-#{$key}-xs {
+                color : $val
+            }
+
+            .bg-#{$key}-xs {
+                background-color: $val;
+            }
+
+        }
+
+        // light variations
+
+        @each $key , $val in $colors {
+
+            @for $i from 1 through 5 {
+
+                .text-#{$key}-light-#{$i}-xs {
+                    color : mix(white, $val, $i * 15)
+                }
+            
+                .bg-#{$key}-light-#{$i}-xs {
+                    background-color: mix(white, $val, $i * 15);
+                }
+            }
+
+        }
+
+        // dark variations 
+
+        @each $key , $val in $colors {
+
+            @for $i from 1 through 5 {
+
+                .text-#{$key}-dark-#{$i}-xs {
+                    color : mix(black, $val, $i * 20)
+                }
+            
+                .bg-#{$key}-dark-#{$i}-xs {
+                    background-color: mix(black, $val, $i * 20);
+                }
+            }
+
+        }
+}
+
+
+@include sm {
+    // text and background colors
+
+    @each $key , $val in $colors {
+
+        .text-#{$key}-sm {
+            color : $val
+        }
+
+        .bg-#{$key}-sm {
+            background-color: $val;
+        }
+
+    }
+
+    // light variations
+
+    @each $key , $val in $colors {
+
+        @for $i from 1 through 5 {
+
+            .text-#{$key}-light-#{$i}-sm {
+                color : mix(white, $val, $i * 15)
+            }
+        
+            .bg-#{$key}-light-#{$i}-sm {
+                background-color: mix(white, $val, $i * 15);
+            }
+        }
+
+    }
+
+    // dark variations 
+
+    @each $key , $val in $colors {
+
+        @for $i from 1 through 5 {
+
+            .text-#{$key}-dark-#{$i}-sm {
+                color : mix(black, $val, $i * 20)
+            }
+        
+            .bg-#{$key}-dark-#{$i}-sm {
+                background-color: mix(black, $val, $i * 20);
+            }
+        }
+
+    }
+}
+
+
+@include md {
+    // text and background colors
+
+    @each $key , $val in $colors {
+
+        .text-#{$key}-md {
+            color : $val
+        }
+
+        .bg-#{$key}-md {
+            background-color: $val;
+        }
+
+    }
+
+    // light variations
+
+    @each $key , $val in $colors {
+
+        @for $i from 1 through 5 {
+
+            .text-#{$key}-light-#{$i}-md {
+                color : mix(white, $val, $i * 15)
+            }
+        
+            .bg-#{$key}-light-#{$i}-md {
+                background-color: mix(white, $val, $i * 15);
+            }
+        }
+
+    }
+
+    // dark variations 
+
+    @each $key , $val in $colors {
+
+        @for $i from 1 through 5 {
+
+            .text-#{$key}-dark-#{$i}-md {
+                color : mix(black, $val, $i * 20)
+            }
+        
+            .bg-#{$key}-dark-#{$i}-md {
+                background-color: mix(black, $val, $i * 20);
+            }
+        }
+
+    }
+}
+
+
+@include lg {
+    // text and background colors
+
+    @each $key , $val in $colors {
+
+        .text-#{$key}-lg {
+            color : $val
+        }
+
+        .bg-#{$key}-lg {
+            background-color: $val;
+        }
+
+    }
+
+    // light variations
+
+    @each $key , $val in $colors {
+
+        @for $i from 1 through 5 {
+
+            .text-#{$key}-light-#{$i}-lg {
+                color : mix(white, $val, $i * 15)
+            }
+        
+            .bg-#{$key}-light-#{$i}-lg {
+                background-color: mix(white, $val, $i * 15);
+            }
+        }
+
+    }
+
+    // dark variations 
+
+    @each $key , $val in $colors {
+
+        @for $i from 1 through 5 {
+
+            .text-#{$key}-dark-#{$i}-lg {
+                color : mix(black, $val, $i * 20)
+            }
+        
+            .bg-#{$key}-dark-#{$i}-lg {
+                background-color: mix(black, $val, $i * 20);
+            }
+        }
+
+    }
+}
+
+
+
+@include xl {
+    // text and background colors
+
+    @each $key , $val in $colors {
+
+        .text-#{$key}-xl {
+            color : $val
+        }
+
+        .bg-#{$key}-xl {
+            background-color: $val;
+        }
+
+    }
+
+    // light variations
+
+    @each $key , $val in $colors {
+
+        @for $i from 1 through 5 {
+
+            .text-#{$key}-light-#{$i}-xl {
+                color : mix(white, $val, $i * 15)
+            }
+        
+            .bg-#{$key}-light-#{$i}-xl {
+                background-color: mix(white, $val, $i * 15);
+            }
+        }
+
+    }
+
+    // dark variations 
+
+    @each $key , $val in $colors {
+
+        @for $i from 1 through 5 {
+
+            .text-#{$key}-dark-#{$i}-xl {
+                color : mix(black, $val, $i * 20)
+            }
+        
+            .bg-#{$key}-dark-#{$i}-xl {
+                background-color: mix(black, $val, $i * 20);
+            }
+        }
+
+    }
+}

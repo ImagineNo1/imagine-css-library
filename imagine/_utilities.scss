@@ -200,7 +200,7 @@ $utilities : (
         "values" : (
             "center" : center,
             "end" : right ,
-            "left" : start,
+            "start" : left,
         ),
     ),
     "u18" : (
@@ -277,6 +277,77 @@ $utilities : (
         
         .#{$prefix}-#{$k} {
             #{$property} : $v 
+        }
+    }
+}
+
+@include xs {
+    @each $u , $map in $utilities {
+        $property : map-get($map , "property");
+        $prefix : map-get($map , "prefix");
+        $values : map-get($map, "values");
+    
+        @each $k , $v in $values {
+            
+            .#{$prefix}-#{$k}-xs {
+                #{$property} : $v 
+            }
+        }
+    }
+}
+@include sm {
+    @each $u , $map in $utilities {
+        $property : map-get($map , "property");
+        $prefix : map-get($map , "prefix");
+        $values : map-get($map, "values");
+    
+        @each $k , $v in $values {
+            
+            .#{$prefix}-#{$k}-sm {
+                #{$property} : $v 
+            }
+        }
+    }
+}
+@include md {
+    @each $u , $map in $utilities {
+        $property : map-get($map , "property");
+        $prefix : map-get($map , "prefix");
+        $values : map-get($map, "values");
+    
+        @each $k , $v in $values {
+            
+            .#{$prefix}-#{$k}-md {
+                #{$property} : $v 
+            }
+        }
+    }
+}
+@include lg {
+    @each $u , $map in $utilities {
+        $property : map-get($map , "property");
+        $prefix : map-get($map , "prefix");
+        $values : map-get($map, "values");
+    
+        @each $k , $v in $values {
+            
+            .#{$prefix}-#{$k}-lg {
+                #{$property} : $v 
+            }
+        }
+    }
+}
+@include xl {
+    @each $u , $map in $utilities {
+        $property : map-get($map , "property");
+        $prefix : map-get($map , "prefix");
+        $values : map-get($map, "values");
+    
+        @each $k , $v in $values {
+            
+            .#{$prefix}-#{$k}-xl {
+                #{$property} : $v 
+            }
         }
     }
 }
