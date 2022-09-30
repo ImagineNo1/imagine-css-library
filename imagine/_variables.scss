@@ -1,11 +1,16 @@
-$primary : #0275d8 ;
-$secondary : #7c8184;
-$success : #5cb85c ;
-$warning : #f0ad4e;
-$danger : #d9534f;
-$faded : #f7f7f7;
-$dark : #292b2c;
-
+$primary : #0275d8 !default;
+$secondary : #7c8184 !default;
+$success : #5cb85c !default;
+$warning : #f0ad4e !default;
+$danger : #d9534f !default;
+$faded : #f7f7f7 !default;
+$dark : #292b2c !default;
+$green: #19e635 !default;
+$orange : #ffa600 !default;
+$purple : #9900ff !default;
+$gray : #808080 !default;
+$white : white !default;
+$black : black !default;
 //colors
 
 $colors : (
@@ -16,30 +21,30 @@ $colors : (
     "danger" : $danger,
     "faded" : $faded,
     "dark" : $dark,
-    "green": #19e635,
-    "orange": #ffa600,
-    "purple": #9900ff,
-    "gray": #808080,
-    "white" : white,
-    "black" : black,
+    "green": $green,
+    "orange": $orange,
+    "purple": $purple,
+    "gray": $gray,
+    "white" : $white,
+    "black" : $black,
 );
 
 // spacing 
 
-$base-padding : 0.75rem;
-$base-margin : 0.75rem;
+$base-padding : 0.75rem !default;
+$base-margin : 0.75rem !default;
 
 // borders
 
-$base-border-thickness : 1px;
-$base-border-radius : 20px;
+$base-border-thickness : 1px !default;
+$base-border-radius : 20px !default;
 
 // box-shadow
-$base-box-shadow: 1px 3px 5px rgba(0,0,0,0.1);
+$base-box-shadow: 1px 3px 5px rgba(0,0,0,0.1) !default;
 
 //font sizes
-$base-font-size : 1rem;
-$font-size-sm : $base-font-size * 0.75 ;
-$font-size-lg : $base-font-size * 1.5 ;
-$font-size-xl : $base-font-size * 2 ;
-$font-size-xxl : $base-font-size * 3 ;
+$base-font-size : 1rem !default;
+$font-size-sm : $base-font-size * 0.75  !default;
+$font-size-lg : $base-font-size * 1.5 !default;
+$font-size-xl : $base-font-size * 2 !default;
+$font-size-xxl : $base-font-size * 3 !default;
