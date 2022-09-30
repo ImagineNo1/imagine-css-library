@@ -203,6 +203,68 @@ $utilities : (
             "left" : start,
         ),
     ),
+    "u18" : (
+        "property" : "display",
+        "prefix" : "display",
+        "values" : (
+            "f" : flex,
+            "b" : block ,
+            "ib" : inline-block,
+            "i": inline,
+            "n" : none,
+        ),
+    ),
+    "u19" : (
+        "property" : "width",
+        "prefix" : "w",
+        "values" : (
+            "full" : 100%,
+            "half" : 50% ,
+            "25" : 25%,
+            "75": 75%,
+        ),
+    ),
+    "u20" : (
+        "property" : "border-style",
+        "prefix" : "bs",
+        "values" : (
+            "solid" : solid,
+            "dashed" : dashed ,
+            "dotted" : dotted,
+            "none": none,
+        ),
+    ),
+    "u21" : (
+        "property" : "border-width",
+        "prefix" : "bw",
+        "values" : (
+            "0" : 0,
+            "1" : 1px ,
+            "2" : 2px,
+            "3": 3px,
+            "4" : 4px,
+            "5" : 5px,
+        ),
+    ),
+    "u22" : (
+        "property" : "border-color",
+        "prefix" : "bc",
+        "values" : (
+            "primary" : $primary ,
+            "secondary" : $secondary,
+            "success" : $success,
+            "warning" : $warning,
+            "danger" : $danger,
+            "faded" : $faded,
+            "dark" : $dark,
+            "green": #19e635,
+            "orange": #ffa600,
+            "purple": #9900ff,
+            "gray": #808080,
+            "white" : white,
+            "black" : black,
+        ),
+    ),
 );
 
 

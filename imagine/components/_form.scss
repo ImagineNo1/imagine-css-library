@@ -1,0 +1,21 @@
+@use 'sass:math';
+
+.form{
+
+    width: 100%;
+
+    .form-label{
+        display: block;
+        margin-bottom: $base-margin;
+        font-style: oblique;
+        width: 100%;
+        
+    }
+    .form-input{
+        display: block;
+        margin-bottom: $base-margin;
+        padding: math.div($base-padding , 2) $base-padding * 2;
+        width: 100%;
+        
+    }
+}
