@@ -7,7 +7,17 @@
     box-shadow: $base-box-shadow;
     border-radius: math.div($base-border-radius , 4) ;
 
+    .card-header{
+      background-color: $faded;
+      text-align: center;
+      font-size: $font-size-xl;
+      padding-bottom: $base-padding;
+      font-weight: bold;
+      border-bottom:1px solid black ;
+    }
+
     .card-title {
+      padding-top: $base-padding;
         font-size: $font-size-lg;
         padding-bottom: $base-padding;
         font-weight: bold;
