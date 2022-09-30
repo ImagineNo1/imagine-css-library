@@ -432,3 +432,23 @@ $headers : (
         }
     }
 }
+@include xxl {
+    @each $u , $map in $utilities {
+        $property : map-get($map , "property");
+        $prefix : map-get($map , "prefix");
+        $values : map-get($map, "values");
+    
+        @each $k , $v in $values {
+            
+            .#{$prefix}-#{$k}-xxl {
+                #{$property} : $v 
+            }
+        }
+    }
+    @each $key, $val in $headers {
+        .#{$key}-xxl {
+            font-size: $val;
+            font-weight: bold;
+        }
+    }
+}

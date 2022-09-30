@@ -1,35 +1,81 @@
 @use 'sass:math';
 
-@mixin btn ($bg-color : #e2e2e2) {
+$btn-sizes : (
+    'Default' : $base-padding *1.25 $base-padding * 2.3,
+    'lg' : $base-padding * 1.65 $base-padding * 4,
+    'sm' : $base-padding * 0.75 $base-padding * 1.5,
+);
+
+@mixin btn ($bg-color : #e2e2e2 , $padding : $base-padding $base-padding * 2) {
     text-decoration: none;
     cursor: pointer;
-    padding: $base-padding $base-padding * 2;
+    padding: $padding;
     border-radius: $base-border-radius;
     border : 0 ;
     display: inline-block;
     background-color: $bg-color ;
 }
 
-.btn {
-    @include btn;
+@each $size , $val in $btn-sizes {
+    @if ($size == Default){
+        .btn {
+            @include btn
+        }
+    }@else {
+        .btn-#{$size} {
+            @include btn(#e2e2e2,$val);
+        }
+    }
 }
 
 @each $key , $val in $colors {
-    .btn-#{$key} {
-        @include btn($val);
 
-        &:hover {
-            background-color: lighten($val,10);
+    @each $size , $valsize in $btn-sizes {
+
+        @if($size == Default){
+
+            .btn-#{$key} {
+                @include btn($val);
+        
+                &:hover {
+                    background-color: lighten($val,10);
+                }
+        
+                
+            }
+            .btn-outline-#{$key} {
+                @include btn;
+                border: 2px solid $val;
+        
+                &:hover {
+                    background-color: $val;
+                }
+            }
+
+        } @else {
+
+            .btn-#{$key}-#{$size} {
+                @include btn($val,$valsize);
+        
+                &:hover {
+                    background-color: lighten($val,10);
+                }
+        
+                
+            }
+            .btn-outline-#{$key}-#{$size} {
+                @include btn(#e2e2e2,$valsize);
+                border: 2px solid $val;
+        
+                &:hover {
+                    background-color: $val;
+                }
+            }
         }
 
         
-    }
-    .btn-outline-#{$key} {
-        @include btn;
-        border: 2px solid $val;
 
-        &:hover {
-            background-color: $val;
-        }
     }
+
+
 }

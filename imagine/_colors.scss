@@ -300,3 +300,53 @@
 
     }
 }
+
+@include xxl {
+    // text and background colors
+
+    @each $key , $val in $colors {
+
+        .text-#{$key}-xxl {
+            color : $val
+        }
+
+        .bg-#{$key}-xxl {
+            background-color: $val;
+        }
+
+    }
+
+    // light variations
+
+    @each $key , $val in $colors {
+
+        @for $i from 1 through 5 {
+
+            .text-#{$key}-light-#{$i}-xxl {
+                color : mix(white, $val, $i * 15)
+            }
+        
+            .bg-#{$key}-light-#{$i}-xxl {
+                background-color: mix(white, $val, $i * 15);
+            }
+        }
+
+    }
+
+    // dark variations 
+
+    @each $key , $val in $colors {
+
+        @for $i from 1 through 5 {
+
+            .text-#{$key}-dark-#{$i}-xxl {
+                color : mix(black, $val, $i * 20)
+            }
+        
+            .bg-#{$key}-dark-#{$i}-xxl {
+                background-color: mix(black, $val, $i * 20);
+            }
+        }
+
+    }
+}
