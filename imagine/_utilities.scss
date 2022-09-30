@@ -265,8 +265,59 @@ $utilities : (
             "black" : black,
         ),
     ),
+    "u23" : (
+        "property" : "border-radius",
+        "prefix" : "br",
+        "values" : (
+            "0" : 0,
+            "1" : 10px,
+            "2" : 20px ,
+            "3" : 30px,
+            "4": 40px,
+            "5" : 50px,
+
+        ),
+    ),
+    "u24" : (
+        "property" : "font-style",
+        "prefix" : "fs",
+        "values" : (
+            "italic" : italic,
+            "oblique" : oblique,
+            "normal" : normal ,
+            "initial" : initial,
+        ),
+    ),
+    "u25" : (
+        "property" : "font-weight",
+        "prefix" : "fw",
+        "values" : (
+            "light" : light,
+            "bold" : bold,
+            "normal" : normal,
+        ),
+    ),
 );
 
+// header tags 
+
+$headers : (
+    "h1" : 2em ,
+    "h2" : 1.5em,
+    "h3" : 1.17em,
+    "h4" : 1em ,
+    "h5" : 0.83em ,
+    "h6" : 0.67em,
+);
+
+@each $key, $val in $headers {
+    .#{$key} {
+        font-size: $val;
+        font-weight: bold;
+    }
+}
+
+// looping through maps ...
 
 @each $u , $map in $utilities {
     $property : map-get($map , "property");
@@ -294,6 +345,12 @@ $utilities : (
             }
         }
     }
+    @each $key, $val in $headers {
+        .#{$key}-xs {
+            font-size: $val;
+            font-weight: bold;
+        }
+    }
 }
 @include sm {
     @each $u , $map in $utilities {
@@ -306,6 +363,12 @@ $utilities : (
             .#{$prefix}-#{$k}-sm {
                 #{$property} : $v 
             }
+        }
+    }
+    @each $key, $val in $headers {
+        .#{$key}-sm {
+            font-size: $val;
+            font-weight: bold;
         }
     }
 }
@@ -322,6 +385,12 @@ $utilities : (
             }
         }
     }
+    @each $key, $val in $headers {
+        .#{$key}-md {
+            font-size: $val;
+            font-weight: bold;
+        }
+    }
 }
 @include lg {
     @each $u , $map in $utilities {
@@ -336,6 +405,12 @@ $utilities : (
             }
         }
     }
+    @each $key, $val in $headers {
+        .#{$key}-lg {
+            font-size: $val;
+            font-weight: bold;
+        }
+    }
 }
 @include xl {
     @each $u , $map in $utilities {
@@ -348,6 +423,12 @@ $utilities : (
             .#{$prefix}-#{$k}-xl {
                 #{$property} : $v 
             }
+        }
+    }
+    @each $key, $val in $headers {
+        .#{$key}-xl {
+            font-size: $val;
+            font-weight: bold;
         }
     }
 }
