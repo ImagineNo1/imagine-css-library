@@ -370,8 +370,8 @@ $headers : (
 
 @each $key, $val in $headers {
     .#{$key} {
-        font-size: $val;
-        font-weight: bold;
+        font-size: $val !important;
+        font-weight: bold !important;
     }
 }
 
@@ -385,7 +385,7 @@ $headers : (
     @each $k , $v in $values {
         
         .#{$prefix}-#{$k} {
-            #{$property} : $v 
+            #{$property} : $v !important
         }
     }
 }
@@ -399,14 +399,14 @@ $headers : (
         @each $k , $v in $values {
             
             .#{$prefix}-#{$k}-xs {
-                #{$property} : $v 
+                #{$property} : $v !important
             }
         }
     }
     @each $key, $val in $headers {
         .#{$key}-xs {
-            font-size: $val;
-            font-weight: bold;
+            font-size: $val !important;
+            font-weight: bold !important;
         }
     }
 }
@@ -419,14 +419,14 @@ $headers : (
         @each $k , $v in $values {
             
             .#{$prefix}-#{$k}-sm {
-                #{$property} : $v 
+                #{$property} : $v !important
             }
         }
     }
     @each $key, $val in $headers {
         .#{$key}-sm {
-            font-size: $val;
-            font-weight: bold;
+            font-size: $val !important;
+            font-weight: bold !important;
         }
     }
 }
@@ -439,14 +439,14 @@ $headers : (
         @each $k , $v in $values {
             
             .#{$prefix}-#{$k}-md {
-                #{$property} : $v 
+                #{$property} : $v !important
             }
         }
     }
     @each $key, $val in $headers {
         .#{$key}-md {
-            font-size: $val;
-            font-weight: bold;
+            font-size: $val !important;
+            font-weight: bold !important;
         }
     }
 }
@@ -459,14 +459,14 @@ $headers : (
         @each $k , $v in $values {
             
             .#{$prefix}-#{$k}-lg {
-                #{$property} : $v 
+                #{$property} : $v !important
             }
         }
     }
     @each $key, $val in $headers {
         .#{$key}-lg {
-            font-size: $val;
-            font-weight: bold;
+            font-size: $val !important;
+            font-weight: bold !important;
         }
     }
 }
@@ -479,14 +479,14 @@ $headers : (
         @each $k , $v in $values {
             
             .#{$prefix}-#{$k}-xl {
-                #{$property} : $v 
+                #{$property} : $v !important
             }
         }
     }
     @each $key, $val in $headers {
         .#{$key}-xl {
-            font-size: $val;
-            font-weight: bold;
+            font-size: $val !important;
+            font-weight: bold !important;
         }
     }
 }
@@ -499,14 +499,14 @@ $headers : (
         @each $k , $v in $values {
             
             .#{$prefix}-#{$k}-xxl {
-                #{$property} : $v 
+                #{$property} : $v !important
             }
         }
     }
     @each $key, $val in $headers {
         .#{$key}-xxl {
-            font-size: $val;
-            font-weight: bold;
+            font-size: $val !important;
+            font-weight: bold !important;
         }
     }
 }

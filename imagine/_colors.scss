@@ -3,11 +3,11 @@
 @each $key , $val in $colors {
 
     .text-#{$key} {
-        color : $val
+        color : $val !important
     }
 
     .bg-#{$key} {
-        background-color: $val;
+        background-color: $val !important;
     }
 
 }
@@ -19,11 +19,11 @@
     @for $i from 1 through 10 {
 
         .text-#{$key}-light-#{$i} {
-            color : mix(white, $val, $i * 10)
+            color : mix(white, $val, $i * 10) !important
         }
     
         .bg-#{$key}-light-#{$i} {
-            background-color: mix(white, $val, $i * 10);
+            background-color: mix(white, $val, $i * 10) !important;
         }
     }
 
@@ -36,11 +36,11 @@
     @for $i from 1 through 10 {
 
         .text-#{$key}-dark-#{$i} {
-            color : mix(black, $val, $i * 10)
+            color : mix(black, $val, $i * 10) !important
         }
     
         .bg-#{$key}-dark-#{$i} {
-            background-color: mix(black, $val, $i * 10);
+            background-color: mix(black, $val, $i * 10) !important;
         }
     }
 
@@ -52,11 +52,11 @@
         @each $key , $val in $colors {
 
             .text-#{$key}-xs {
-                color : $val
+                color : $val !important
             }
 
             .bg-#{$key}-xs {
-                background-color: $val;
+                background-color: $val !important;
             }
 
         }
@@ -68,11 +68,11 @@
             @for $i from 1 through 10 {
 
                 .text-#{$key}-light-#{$i}-xs {
-                    color : mix(white, $val, $i * 10)
+                    color : mix(white, $val, $i * 10) !important
                 }
             
                 .bg-#{$key}-light-#{$i}-xs {
-                    background-color: mix(white, $val, $i * 10);
+                    background-color: mix(white, $val, $i * 10) !important;
                 }
             }
 
@@ -85,11 +85,11 @@
             @for $i from 1 through 10 {
 
                 .text-#{$key}-dark-#{$i}-xs {
-                    color : mix(black, $val, $i * 10)
+                    color : mix(black, $val, $i * 10) !important
                 }
             
                 .bg-#{$key}-dark-#{$i}-xs {
-                    background-color: mix(black, $val, $i * 10);
+                    background-color: mix(black, $val, $i * 10) !important;
                 }
             }
 
@@ -103,11 +103,11 @@
     @each $key , $val in $colors {
 
         .text-#{$key}-sm {
-            color : $val
+            color : $val !important
         }
 
         .bg-#{$key}-sm {
-            background-color: $val;
+            background-color: $val !important;
         }
 
     }
@@ -119,11 +119,11 @@
         @for $i from 1 through 10 {
 
             .text-#{$key}-light-#{$i}-sm {
-                color : mix(white, $val, $i * 10)
+                color : mix(white, $val, $i * 10) !important
             }
         
             .bg-#{$key}-light-#{$i}-sm {
-                background-color: mix(white, $val, $i * 10);
+                background-color: mix(white, $val, $i * 10) !important;
             }
         }
 
@@ -136,11 +136,11 @@
         @for $i from 1 through 10 {
 
             .text-#{$key}-dark-#{$i}-sm {
-                color : mix(black, $val, $i * 10)
+                color : mix(black, $val, $i * 10) !important
             }
         
             .bg-#{$key}-dark-#{$i}-sm {
-                background-color: mix(black, $val, $i * 10);
+                background-color: mix(black, $val, $i * 10) !important;
             }
         }
 
@@ -154,11 +154,11 @@
     @each $key , $val in $colors {
 
         .text-#{$key}-md {
-            color : $val
+            color : $val !important
         }
 
         .bg-#{$key}-md {
-            background-color: $val;
+            background-color: $val !important;
         }
 
     }
@@ -170,11 +170,11 @@
         @for $i from 1 through 10 {
 
             .text-#{$key}-light-#{$i}-md {
-                color : mix(white, $val, $i * 10)
+                color : mix(white, $val, $i * 10) !important
             }
         
             .bg-#{$key}-light-#{$i}-md {
-                background-color: mix(white, $val, $i * 10);
+                background-color: mix(white, $val, $i * 10) !important;
             }
         }
 
@@ -187,11 +187,11 @@
         @for $i from 1 through 10 {
 
             .text-#{$key}-dark-#{$i}-md {
-                color : mix(black, $val, $i * 10)
+                color : mix(black, $val, $i * 10) !important
             }
         
             .bg-#{$key}-dark-#{$i}-md {
-                background-color: mix(black, $val, $i * 10);
+                background-color: mix(black, $val, $i * 10) !important;
             }
         }
 
@@ -205,11 +205,11 @@
     @each $key , $val in $colors {
 
         .text-#{$key}-lg {
-            color : $val
+            color : $val !important
         }
 
         .bg-#{$key}-lg {
-            background-color: $val;
+            background-color: $val !important;
         }
 
     }
@@ -221,11 +221,11 @@
         @for $i from 1 through 10 {
 
             .text-#{$key}-light-#{$i}-lg {
-                color : mix(white, $val, $i * 10)
+                color : mix(white, $val, $i * 10) !important
             }
         
             .bg-#{$key}-light-#{$i}-lg {
-                background-color: mix(white, $val, $i * 10);
+                background-color: mix(white, $val, $i * 10) !important;
             }
         }
 
@@ -238,11 +238,11 @@
         @for $i from 1 through 10 {
 
             .text-#{$key}-dark-#{$i}-lg {
-                color : mix(black, $val, $i * 10)
+                color : mix(black, $val, $i * 10) !important
             }
         
             .bg-#{$key}-dark-#{$i}-lg {
-                background-color: mix(black, $val, $i * 10);
+                background-color: mix(black, $val, $i * 10) !important;
             }
         }
 
@@ -257,11 +257,11 @@
     @each $key , $val in $colors {
 
         .text-#{$key}-xl {
-            color : $val
+            color : $val !important
         }
 
         .bg-#{$key}-xl {
-            background-color: $val;
+            background-color: $val !important;
         }
 
     }
@@ -273,11 +273,11 @@
         @for $i from 1 through 10 {
 
             .text-#{$key}-light-#{$i}-xl {
-                color : mix(white, $val, $i * 10)
+                color : mix(white, $val, $i * 10) !important
             }
         
             .bg-#{$key}-light-#{$i}-xl {
-                background-color: mix(white, $val, $i * 10);
+                background-color: mix(white, $val, $i * 10) !important;
             }
         }
 
@@ -290,11 +290,11 @@
         @for $i from 1 through 10 {
 
             .text-#{$key}-dark-#{$i}-xl {
-                color : mix(black, $val, $i * 10)
+                color : mix(black, $val, $i * 10) !important
             }
         
             .bg-#{$key}-dark-#{$i}-xl {
-                background-color: mix(black, $val, $i * 10);
+                background-color: mix(black, $val, $i * 10) !important;
             }
         }
 
@@ -307,11 +307,11 @@
     @each $key , $val in $colors {
 
         .text-#{$key}-xxl {
-            color : $val
+            color : $val !important
         }
 
         .bg-#{$key}-xxl {
-            background-color: $val;
+            background-color: $val !important;
         }
 
     }
@@ -323,11 +323,11 @@
         @for $i from 1 through 10 {
 
             .text-#{$key}-light-#{$i}-xxl {
-                color : mix(white, $val, $i * 10)
+                color : mix(white, $val, $i * 10) !important
             }
         
             .bg-#{$key}-light-#{$i}-xxl {
-                background-color: mix(white, $val, $i * 10);
+                background-color: mix(white, $val, $i * 10) !important;
             }
         }
 
@@ -340,11 +340,11 @@
         @for $i from 1 through 10 {
 
             .text-#{$key}-dark-#{$i}-xxl {
-                color : mix(black, $val, $i * 10)
+                color : mix(black, $val, $i * 10) !important
             }
         
             .bg-#{$key}-dark-#{$i}-xxl {
-                background-color: mix(black, $val, $i * 10);
+                background-color: mix(black, $val, $i * 10) !important;
             }
         }
 
