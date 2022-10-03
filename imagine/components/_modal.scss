@@ -1,4 +1,4 @@
-.modal {
+@mixin modal($color) {
     @include xs {
         left: 100px;
         width: 300px;
@@ -28,7 +28,7 @@
 
     padding: 15px 20px;
     height: 240px;
-    background-color: #f2f2f2;
+    background-color: $color;
     border-radius: 30px;
     border: 1px solid black;
     box-sizing: border-box;
@@ -48,5 +48,14 @@
     .modal-footer {
         margin: 20px 0;
         height: 40px;
+    }
+}
+.modal {
+    @include modal($faded)
+}
+
+@each $key , $val in $colors {
+    .modal-#{$key} {
+        @include modal($val)
     }
 }
