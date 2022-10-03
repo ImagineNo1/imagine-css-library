@@ -1,0 +1,65 @@
+$offcanvas : (
+    "start" : start,
+    "end" : end ,
+);
+$offcanvas-sizes : (
+    "Default" : 350px,
+    "lg" : 500px,
+    "sm" : 200px,
+);
+// offcanvas Template
+
+@mixin offcanvas($color,$direction,$size){
+    @if ($direction == start){
+        left: 0%;
+        border-right: 1px solid black ;
+    }
+    @if ($direction == end){
+        right: 0%;
+        border-left: 1px solid black ;
+    }
+    position: absolute;
+    top: 0%;
+    width: $size;
+    height: 1000000000000000px;
+    background-color: $color;
+    display: none;
+    overflow-y: auto;
+   
+}
+
+// building Default offcanvas
+
+@each $key , $val in $offcanvas {
+    @each $size , $valSize in $offcanvas-sizes {
+        @if ($size == Default){
+            .offcanvas-#{$key} {
+                @include offcanvas(#f2f2f2,$val,$valSize)
+            }
+        }@else {
+            .offcanvas-#{$key}-#{$size} {
+                @include offcanvas(#f2f2f2,$val,$valSize)
+            }
+        }
+
+    }
+}
+
+// building colorize offcanvas
+
+@each $key , $val in $colors {
+    @each $direction , $valDirection in $offcanvas {
+        @each $size , $valSize in $offcanvas-sizes {
+            @if ($size == Default){
+                .offcanvas-#{$key}-#{$direction} {
+                    @include offcanvas($val,$valDirection,$valSize)
+                }
+            }@else {
+                .offcanvas-#{$key}-#{$direction}-#{$size} {
+                    @include offcanvas($val,$valDirection,$valSize)
+                }
+            }
+    
+        }
+    }
+}
