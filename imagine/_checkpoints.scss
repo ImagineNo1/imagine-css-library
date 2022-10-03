@@ -37,3 +37,36 @@ $checkpoints : (
         @content;
     }
 }
+
+// for max width 
+
+@mixin mxs {
+    @media(max-width: map-get($checkpoints,"xs")){
+        @content;
+    }
+}
+@mixin msm {
+    @media(max-width: map-get($checkpoints,"sm")){
+        @content;
+    }
+}
+@mixin mmd {
+    @media(max-width: map-get($checkpoints,"md")){
+        @content;
+    }
+}
+@mixin mlg {
+    @media(max-width: map-get($checkpoints,"lg")){
+        @content;
+    }
+}
+@mixin mxl {
+    @media(max-width: map-get($checkpoints,"xl")){
+        @content;
+    }
+}
+@mixin mxxl {
+    @media(max-width: map-get($checkpoints,"xxl")){
+        @content;
+    }
+}
