@@ -1,0 +1,44 @@
+%sudos{
+    cursor: pointer;
+    position: absolute;
+    opacity: 0.3;
+
+    &:hover{
+        opacity: 1;
+    }
+    &::before{
+        position: absolute;
+        left: 15px;
+        content: ' ';
+        height: 33px;
+        width: 2px;
+        background-color: #333;
+        transform: rotate(45deg);
+    }
+    &::after{
+        position: absolute;
+        left: 15px;
+        content: ' ';
+        height: 33px;
+        width: 2px;
+        background-color: #333;
+        transform: rotate(-45deg);
+    }
+}
+
+.closeModal {
+    right: 22px;
+    top: 18px;
+    width: 32px;
+    height: 32px;
+    @extend %sudos;
+  }
+
+  .closeOffcanvas {
+    right: 12px;
+    top: 8px;
+    width: 32px;
+    height: 32px;
+    @extend %sudos;
+  }
+
