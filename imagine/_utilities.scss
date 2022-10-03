@@ -354,7 +354,15 @@ $utilities : (
             "100" : map-get($position-values, "100"),
         )
     ),
-
+    "u32" : (
+        "property" : "font-family",
+        "prefix" : "FontFamily",
+        "values" : (
+            "writing" : 'Dancing Script',
+            "Dosis" : 'Dosis',
+            "lead" : 'Noto Sans Mono',
+        )
+    ),
 );
 
 // header tags 
