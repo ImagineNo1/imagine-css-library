@@ -1,15 +1,17 @@
 %flex-style{
     width: 100%;
-
-    @include xs {
-        display: block;
-    }
-    @include sm {
-        display: flex;
-        align-items: center;
-        justify-content: space-between;
-    }
+    display: flex;
+    justify-content: space-between;
     box-sizing: border-box;
+    @include xs {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    @include md {
+        flex-direction: row;
+        align-items: center;
+
+    }
 }
 
 .navbar {
@@ -17,8 +19,72 @@
     padding: $base-padding $base-padding * 2;
     box-shadow: $base-box-shadow;
 
-    .site-title {
+    .nav-brand {
         font-size: $font-size-lg;
+    }
+    .active {
+        display: flex !important;
+    }
+    .nav-links{
+        @include mmd {
+            display: none;
+            width: 100%;
+        }
+        height: 100%;
+
+        ul {
+            @include mmd {
+                width: 100%;
+                flex-direction: column;
+            }
+            display: flex;
+            margin: 0;
+            padding: 0;
+
+            li {
+                @include mmd {
+                    text-align: center;
+                }
+                list-style: none;
+    
+                a {
+                    @include mmd {
+                        padding: .5rem 1rem;
+                    }
+                    display: block;
+                    text-decoration: none;
+                    color: black;
+                    padding: 1rem;
+                }
+    
+                &:hover {
+                    background-color: $faded;
+                }
+            }
+        }
+    }
+    .toggle-button {
+        @include xs {
+            display: flex;
+        }
+        @include md {
+            display: none;
+        }
+        position: absolute;
+        top: 1.2rem;
+        right: 1rem;
+        flex-direction: column;
+        justify-content: space-between;
+        width: 30px;
+        height: 21px;
+
+
+    }
+    .toggle-button span {
+        height: 3px;
+        width: 100%;
+        background-color: black;
+        border-radius: 10px;
     }
 
     .container {
@@ -42,7 +108,7 @@
 }
 
 @each $key ,$val in $colors {
-    .navber-#{$key} {
+    .navbar-#{$key} {
         @extend .navbar ;
         background-color: $val;
     }
