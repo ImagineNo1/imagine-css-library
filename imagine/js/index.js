@@ -1,5 +1,6 @@
 let activeComponent = 'none' ;
 let activeComponentType ;
+let newActiveComponent ;
 
 const closeOffcanvas = document.querySelector('.closeOffcanvas')
 const closeModal = document.querySelector('.closeModal')
@@ -12,11 +13,14 @@ const toggleNavLinks = ()=> {
 
 const offcanvasDisplay = (target) => {
     const display = getComputedStyle(target).display;
+    if(target.firstElementChild.classList.contains('offcanvas-content')){
+        newActiveComponent = target.firstElementChild;
+    }
     if (display == 'none'){
          target.style.display = "block";
         document.body.classList.toggle('stop-scrolling')
         setTimeout (() => {
-            activeComponent = target ;
+            activeComponent = newActiveComponent ;
             activeComponentType = 'offcanvas' ;
          },100)
 
@@ -30,19 +34,20 @@ const offcanvasDisplay = (target) => {
 
 const ModalDisplay = (target) => {
     const display = getComputedStyle(target).display;
+    if(target.firstElementChild.classList.contains('modal-content')){
+        newActiveComponent = target.firstElementChild;
+    }
     if (display == 'none'){
          target.style.display = "block";
-         
-        //  document.body.style.opacity = '0.3';
-        //  target.classList.toggle('opacity-full');
-
+        document.body.classList.toggle('stop-scrolling')
          setTimeout (() => {
-            activeComponent = target ;
+            activeComponent = newActiveComponent ;
             activeComponentType = 'modal' ;
 
          },100)
     }else if(display == 'block'){
         target.style.display = "none";
+        document.body.classList.toggle('stop-scrolling')
         document.body.style.opacity = '1';
         activeComponent = 'none';
         activeComponentType = 'none' ;
@@ -55,14 +60,21 @@ const ModalDisplay = (target) => {
             if (!activeComponent.contains(e.target) || closeModal.contains(e.target) || closeOffcanvas.contains(e.target) ){
 
                 if (activeComponentType == 'offcanvas') {
+                    
+                    activeComponent.parentNode.style.display = "none";
+                    activeComponent = 'none';
+                    activeComponentType = 'none';
                      document.body.classList.toggle('stop-scrolling')
+
                 }else if (activeComponentType == 'modal') {
-                     document.body.style.opacity = '1';
+
+                    activeComponent.parentNode.style.display = "none";
+                    activeComponent = 'none';
+                    activeComponentType = 'none';
+                    document.body.classList.toggle('stop-scrolling')
                 }
 
-                activeComponent.style.display = "none";
-                activeComponent = 'none';
-                activeComponentType = 'none';
+
             }
         }
       });
