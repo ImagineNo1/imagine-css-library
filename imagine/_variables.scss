@@ -11,6 +11,7 @@ $purple : #9900ff !default;
 $gray : #808080 !default;
 $white : white !default;
 $black : black !default;
+$light : #BECCC6 !default;
 //colors
 
 $colors : (
@@ -27,6 +28,7 @@ $colors : (
     "gray": $gray,
     "white" : $white,
     "black" : $black,
+    "light" : $light,
 );
 
 // spacing 
@@ -41,10 +43,14 @@ $base-border-radius : 20px !default;
 
 // box-shadow
 $base-box-shadow: 1px 3px 5px rgba(0,0,0,0.1) !default;
-
+$second-box-shadow : rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+$third-box-shadow :  rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+$forth-box-shadow :  rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+$fifth-box-shadow :  rgba(0, 0, 0, 0.09) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
 //font sizes
 $base-font-size : 1rem !default;
 $font-size-sm : $base-font-size * 0.75  !default;
+$font-size-md : $base-font-size * 1.3 !default;
 $font-size-lg : $base-font-size * 1.5 !default;
 $font-size-xl : $base-font-size * 2 !default;
 $font-size-xxl : $base-font-size * 3 !default;
