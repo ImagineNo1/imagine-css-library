@@ -13825,6 +13825,7 @@ img {
   width: 2px;
   background-color: #333;
   transform: rotate(45deg);
+  border: 1px solid #0275d8;
 }
 .closeOffcanvas::after, .closeModal::after {
   position: absolute;
@@ -13834,6 +13835,7 @@ img {
   width: 2px;
   background-color: #333;
   transform: rotate(-45deg);
+  border: 1px solid #0275d8;
 }
 
 .closeModal {
@@ -14018,7 +14020,7 @@ img {
   cursor: pointer;
 }
 .list-group .list-item:hover {
-  background-color: #C3CCBE;
+  background-color: #BECCC6;
 }
 
 .card {
