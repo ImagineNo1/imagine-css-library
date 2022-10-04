@@ -187,8 +187,9 @@ $utilities : (
         "property" : "font-size",
         "prefix" : "fs",
         "values" : (
-            "sm" : $font-size-sm,
-            "md" : $base-font-size ,
+            "xs" : $font-size-sm,
+            "sm" : $base-font-size,
+            "md" :  $font-size-md,
             "lg" : $font-size-lg,
             "xl" : $font-size-xl,
             "xxl" : $font-size-xxl,
@@ -478,6 +479,17 @@ $utilities : (
             "solid" : solid,
             "underline" : underline,
             "wavy" : wavy,
+        )
+    ),
+    "u38" : (
+        "property" : "box-shadow",
+        "prefix" : "bs",
+        "values" : (
+            "1" : $base-box-shadow,
+            "2" : $second-box-shadow ,
+            "3" : $third-box-shadow,
+            "4" : $forth-box-shadow,
+            "5" : $fifth-box-shadow,
         )
     ),
 );
