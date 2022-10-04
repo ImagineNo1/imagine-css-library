@@ -21,6 +21,7 @@
 
     .nav-brand {
         font-size: $font-size-lg;
+        font-weight: bold;
     }
     .active {
         display: flex !important;
@@ -46,7 +47,7 @@
                     text-align: center;
                 }
                 list-style: none;
-    
+                font-size: $base-font-size;
                 a {
                     @include mmd {
                         padding: .5rem 1rem;
@@ -55,6 +56,7 @@
                     text-decoration: none;
                     color: black;
                     padding: 1rem;
+                    cursor: pointer;
                 }
     
                 &:hover {
@@ -72,6 +74,7 @@
         }
         position: absolute;
         top: 1.2rem;
+        cursor: pointer;
         right: 1rem;
         flex-direction: column;
         justify-content: space-between;

@@ -38,6 +38,7 @@ $offcanvas-sizes : (
         width: $size;
         background-color: $color;
         animation-duration: 1s;
+        overflow: auto;
     }
 }
 

@@ -1,0 +1,16 @@
+.list-group {
+    box-sizing: border-box;
+    overflow: auto;
+    
+    .list-item {
+        margin: 10px 0;
+        padding: 10px;
+        font-size: $font-size-lg;
+        box-shadow: $base-box-shadow;
+
+        cursor: pointer;
+        &:hover {
+            background-color: #C3CCBE;
+        }
+    }
+}
