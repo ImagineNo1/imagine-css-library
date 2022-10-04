@@ -1,0 +1,118 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/index.css">
+    <title>Imagine Library | Home</title>
+</head>
+<body>
+
+    <!-- Navbar -->
+
+    <nav class="navbar">
+        <div class="container-xxl">
+            <div class="nav-brand">
+                Imagine Css Library
+            </div>
+            <a href="#" class="toggle-button" onclick="toggleNavLinks()">
+                <span></span>
+                <span></span>
+                <span></span>
+            </a>
+            <div class="nav-links">
+                <ul>
+                    <li><a onclick="ModalDisplay(getStarted)">Get Started</a></li>
+                    <li><a onclick="offcanvasDisplay(AboutUs)">About Us</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Sections -->
+    <div class="bg-faded">
+        <div class="container-xxl mt-2">
+            <div class="row justify-content-around gap-2">
+                <div class="col-3-sm overflow-auto">
+                    <h1 class="text-center FontFamily-writing display-4">Chapters</h1>
+                    <div class="list-group">
+                        <div class="list-item">Navbar</div>
+                        <div class="list-item">Offcanvas</div>
+                        <div class="list-item">Modals</div>
+                        <div class="list-item">Grid System</div>
+                        <div class="list-item">Utilities</div>
+                        <div class="list-item">Card</div>
+                        <div class="list-item">Forms</div>
+                        <div class="list-item">Buttons</div>
+                        <div class="list-item">Close</div>
+                    </div>
+                </div>
+                <div class="col-8-sm ">
+                    Hello Babe
+                </div>
+            </div>
+        </div>
+    </div>
+    
+
+
+    <!-- Footer -->
+
+
+    <!-- About Us Section   -->
+
+    <div class="offcanvas-end" id="AboutUs">
+        <div class="offcanvas-content">
+            <div class="closeOffcanvas"></div>
+            <p class="Display-4 mt-2 text-center FontFamily-writing">About Us</p>
+            <div class="container-lg mt-2">
+                <p class="line-3 mb-3">
+                    <span class="FontFamily-lead fw-bold fs-md">Imagine Css Library</span>
+                    Is a css library like bootstrap which is a compiled of 
+                    <span class="h3 text-underline">Css</span> And <span class="h3 text-underline">JavaScript</span>
+                </p>
+                <hr>
+                <p class="line-3 my-3">
+                    This Project Is built By <span class="h3">Mohammad (Imagine) Rezvani</span> ,
+                    The Project Is An OpenSource Project and The Source Code Is In Github Which you can access To By Going To Github Repository
+                </p>
+                <hr>
+                <div class="text-center">
+                    <p class="text-start my-1 h1 FontFamily-lead">Source</p>
+                    <a href="https://github.com/ImagineNo1/imagine-css-library" 
+                        class="btn-outline-primary-lg text-black mb-3-sm ">
+                            Project Source Code
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modals  -->
+
+    <div class="modal" id="getStarted">
+        <div class="modal-content br-3">
+            <div class="closeModal"></div>
+            <div class="modal-header FontFamily-writing fs-xxl">
+                Getting Started 
+            </div>
+            <hr>
+            <div class="modal-body fs-lg my-2">
+                We are sincerely glad that you chose our project
+                This project contains many tools for easy website design,
+                 which is why we felt the need to define a guide for it. 
+                 All the tools are accessible on the page and how to use 
+                 them has been taught. We hope you enjoy it 
+            </div>
+            <hr>
+            <div class="modal-footer text-end">
+                <button class="btn-success-lg fs-md close">
+                    Lets Start !
+                </button>
+            </div>
+        </div>
+    </div>
+
+    <script src="imagine/js/index.js"></script>
+</body>
+</html>

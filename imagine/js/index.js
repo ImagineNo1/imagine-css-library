@@ -4,6 +4,8 @@ let newActiveComponent ;
 
 const closeOffcanvas = document.querySelector('.closeOffcanvas')
 const closeModal = document.querySelector('.closeModal')
+const close = document.querySelector('.close')
+
 
 const toggleNavLinks = ()=> {
             
@@ -57,7 +59,7 @@ const ModalDisplay = (target) => {
 }
     window.addEventListener('click', function(e){   
         if (activeComponent !== 'none'){
-            if (!activeComponent.contains(e.target) || closeModal.contains(e.target) || closeOffcanvas.contains(e.target) ){
+            if (!activeComponent.contains(e.target) || closeModal.contains(e.target) || closeOffcanvas.contains(e.target) || close.contains(e.target) ){
 
                 if (activeComponentType == 'offcanvas') {
                     
