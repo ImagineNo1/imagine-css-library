@@ -9,12 +9,24 @@
     display: none;
 
     .modal-content {
+        @include xs {
+            width: 90%;
+        }
+        @include sm {
+            width: 80%;
+        }
+        @include md {
+            width: 75%;
+        }
+        @include lg {
+            width: 70%;
+        }
         box-shadow: 0 5px 8px 0 rgba(0, 0, 0, 0.2), 0 7px 20px 0 rgba(0, 0, 0, 0.17);
         position: relative;
         background-color: #f4f4f4;
         margin: 5% auto;
         padding: 15px;
-        width: 70%;
+        
         overflow: auto;
         animation-name: modalopen;
         animation-duration: 0.8s;

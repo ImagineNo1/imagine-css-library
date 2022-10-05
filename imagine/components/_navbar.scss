@@ -45,6 +45,7 @@
             @include mmd {
                 width: 100%;
                 flex-direction: column;
+                margin-top: 10px;
             }
             display: flex;
             margin: 0;
@@ -55,7 +56,7 @@
                     text-align: center;
                 }
                 list-style: none;
-                font-size: $base-font-size;
+                font-size: $font-size-md;
                 a {
                     @include mmd {
                         padding: .5rem 1rem;
@@ -76,12 +77,16 @@
     .toggle-button {
         @include xs {
             display: flex;
+            top: 0.6rem;
+        }
+        @include sm {
+            top: 1rem;
         }
         @include md {
             display: none;
         }
         position: absolute;
-        top: 1.2rem;
+        
         cursor: pointer;
         right: 1rem;
         flex-direction: column;
