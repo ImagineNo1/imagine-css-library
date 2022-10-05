@@ -15261,7 +15261,7 @@ img {
   animation-name: offcanvasOpenStart;
   position: absolute;
   height: 100vh;
-  width: 350px;
+  width: 25%;
   background-color: #f4f4f4;
   animation-duration: 1s;
   overflow: auto;
@@ -15282,7 +15282,7 @@ img {
   animation-name: offcanvasOpenStart;
   position: absolute;
   height: 100vh;
-  width: 500px;
+  width: 35%;
   background-color: #f4f4f4;
   animation-duration: 1s;
   overflow: auto;
@@ -15303,7 +15303,7 @@ img {
   animation-name: offcanvasOpenStart;
   position: absolute;
   height: 100vh;
-  width: 200px;
+  width: 15%;
   background-color: #f4f4f4;
   animation-duration: 1s;
   overflow: auto;
@@ -15324,7 +15324,7 @@ img {
   animation-name: offcanvasOpenEnd;
   position: absolute;
   height: 100vh;
-  width: 350px;
+  width: 25%;
   background-color: #f4f4f4;
   animation-duration: 1s;
   overflow: auto;
@@ -15345,7 +15345,7 @@ img {
   animation-name: offcanvasOpenEnd;
   position: absolute;
   height: 100vh;
-  width: 500px;
+  width: 35%;
   background-color: #f4f4f4;
   animation-duration: 1s;
   overflow: auto;
@@ -15366,7 +15366,7 @@ img {
   animation-name: offcanvasOpenEnd;
   position: absolute;
   height: 100vh;
-  width: 200px;
+  width: 15%;
   background-color: #f4f4f4;
   animation-duration: 1s;
   overflow: auto;
@@ -15387,7 +15387,7 @@ img {
   animation-name: offcanvasOpenStart;
   position: absolute;
   height: 100vh;
-  width: 350px;
+  width: 25%;
   background-color: #0275d8;
   animation-duration: 1s;
   overflow: auto;
@@ -15408,7 +15408,7 @@ img {
   animation-name: offcanvasOpenStart;
   position: absolute;
   height: 100vh;
-  width: 500px;
+  width: 35%;
   background-color: #0275d8;
   animation-duration: 1s;
   overflow: auto;
@@ -15429,7 +15429,7 @@ img {
   animation-name: offcanvasOpenStart;
   position: absolute;
   height: 100vh;
-  width: 200px;
+  width: 15%;
   background-color: #0275d8;
   animation-duration: 1s;
   overflow: auto;
@@ -15450,7 +15450,7 @@ img {
   animation-name: offcanvasOpenEnd;
   position: absolute;
   height: 100vh;
-  width: 350px;
+  width: 25%;
   background-color: #0275d8;
   animation-duration: 1s;
   overflow: auto;
@@ -15471,7 +15471,7 @@ img {
   animation-name: offcanvasOpenEnd;
   position: absolute;
   height: 100vh;
-  width: 500px;
+  width: 35%;
   background-color: #0275d8;
   animation-duration: 1s;
   overflow: auto;
@@ -15492,7 +15492,7 @@ img {
   animation-name: offcanvasOpenEnd;
   position: absolute;
   height: 100vh;
-  width: 200px;
+  width: 15%;
   background-color: #0275d8;
   animation-duration: 1s;
   overflow: auto;
@@ -15513,7 +15513,7 @@ img {
   animation-name: offcanvasOpenStart;
   position: absolute;
   height: 100vh;
-  width: 350px;
+  width: 25%;
   background-color: #7c8184;
   animation-duration: 1s;
   overflow: auto;
@@ -15534,7 +15534,7 @@ img {
   animation-name: offcanvasOpenStart;
   position: absolute;
   height: 100vh;
-  width: 500px;
+  width: 35%;
   background-color: #7c8184;
   animation-duration: 1s;
   overflow: auto;
@@ -15555,7 +15555,7 @@ img {
   animation-name: offcanvasOpenStart;
   position: absolute;
   height: 100vh;
-  width: 200px;
+  width: 15%;
   background-color: #7c8184;
   animation-duration: 1s;
   overflow: auto;
@@ -15576,7 +15576,7 @@ img {
   animation-name: offcanvasOpenEnd;
   position: absolute;
   height: 100vh;
-  width: 350px;
+  width: 25%;
   background-color: #7c8184;
   animation-duration: 1s;
   overflow: auto;
@@ -15597,7 +15597,7 @@ img {
   animation-name: offcanvasOpenEnd;
   position: absolute;
   height: 100vh;
-  width: 500px;
+  width: 35%;
   background-color: #7c8184;
   animation-duration: 1s;
   overflow: auto;
@@ -15618,7 +15618,7 @@ img {
   animation-name: offcanvasOpenEnd;
   position: absolute;
   height: 100vh;
-  width: 200px;
+  width: 15%;
   background-color: #7c8184;
   animation-duration: 1s;
   overflow: auto;
@@ -15639,7 +15639,7 @@ img {
   animation-name: offcanvasOpenStart;
   position: absolute;
   height: 100vh;
-  width: 350px;
+  width: 25%;
   background-color: #5cb85c;
   animation-duration: 1s;
   overflow: auto;
@@ -15660,7 +15660,7 @@ img {
   animation-name: offcanvasOpenStart;
   position: absolute;
   height: 100vh;
-  width: 500px;
+  width: 35%;
   background-color: #5cb85c;
   animation-duration: 1s;
   overflow: auto;
@@ -15681,7 +15681,7 @@ img {
   animation-name: offcanvasOpenStart;
   position: absolute;
   height: 100vh;
-  width: 200px;
+  width: 15%;
   background-color: #5cb85c;
   animation-duration: 1s;
   overflow: auto;
@@ -15702,7 +15702,7 @@ img {
   animation-name: offcanvasOpenEnd;
   position: absolute;
   height: 100vh;
-  width: 350px;
+  width: 25%;
   background-color: #5cb85c;
   animation-duration: 1s;
   overflow: auto;
@@ -15723,7 +15723,7 @@ img {
   animation-name: offcanvasOpenEnd;
   position: absolute;
   height: 100vh;
-  width: 500px;
+  width: 35%;
   background-color: #5cb85c;
   animation-duration: 1s;
   overflow: auto;
@@ -15744,7 +15744,7 @@ img {
   animation-name: offcanvasOpenEnd;
   position: absolute;
   height: 100vh;
-  width: 200px;
+  width: 15%;
   background-color: #5cb85c;
   animation-duration: 1s;
   overflow: auto;
@@ -15765,7 +15765,7 @@ img {
   animation-name: offcanvasOpenStart;
   position: absolute;
   height: 100vh;
-  width: 350px;
+  width: 25%;
   background-color: #f0ad4e;
   animation-duration: 1s;
   overflow: auto;
@@ -15786,7 +15786,7 @@ img {
   animation-name: offcanvasOpenStart;
   position: absolute;
   height: 100vh;
-  width: 500px;
+  width: 35%;
   background-color: #f0ad4e;
   animation-duration: 1s;
   overflow: auto;
@@ -15807,7 +15807,7 @@ img {
   animation-name: offcanvasOpenStart;
   position: absolute;
   height: 100vh;
-  width: 200px;
+  width: 15%;
   background-color: #f0ad4e;
   animation-duration: 1s;
   overflow: auto;
@@ -15828,7 +15828,7 @@ img {
   animation-name: offcanvasOpenEnd;
   position: absolute;
   height: 100vh;
-  width: 350px;
+  width: 25%;
   background-color: #f0ad4e;
   animation-duration: 1s;
   overflow: auto;
@@ -15849,7 +15849,7 @@ img {
   animation-name: offcanvasOpenEnd;
   position: absolute;
   height: 100vh;
-  width: 500px;
+  width: 35%;
   background-color: #f0ad4e;
   animation-duration: 1s;
   overflow: auto;
@@ -15870,7 +15870,7 @@ img {
   animation-name: offcanvasOpenEnd;
   position: absolute;
   height: 100vh;
-  width: 200px;
+  width: 15%;
   background-color: #f0ad4e;
   animation-duration: 1s;
   overflow: auto;
@@ -15891,7 +15891,7 @@ img {
   animation-name: offcanvasOpenStart;
   position: absolute;
   height: 100vh;
-  width: 350px;
+  width: 25%;
   background-color: #d9534f;
   animation-duration: 1s;
   overflow: auto;
@@ -15912,7 +15912,7 @@ img {
   animation-name: offcanvasOpenStart;
   position: absolute;
   height: 100vh;
-  width: 500px;
+  width: 35%;
   background-color: #d9534f;
   animation-duration: 1s;
   overflow: auto;
@@ -15933,7 +15933,7 @@ img {
   animation-name: offcanvasOpenStart;
   position: absolute;
   height: 100vh;
-  width: 200px;
+  width: 15%;
   background-color: #d9534f;
   animation-duration: 1s;
   overflow: auto;
@@ -15954,7 +15954,7 @@ img {
   animation-name: offcanvasOpenEnd;
   position: absolute;
   height: 100vh;
-  width: 350px;
+  width: 25%;
   background-color: #d9534f;
   animation-duration: 1s;
   overflow: auto;
@@ -15975,7 +15975,7 @@ img {
   animation-name: offcanvasOpenEnd;
   position: absolute;
   height: 100vh;
-  width: 500px;
+  width: 35%;
   background-color: #d9534f;
   animation-duration: 1s;
   overflow: auto;
@@ -15996,7 +15996,7 @@ img {
   animation-name: offcanvasOpenEnd;
   position: absolute;
   height: 100vh;
-  width: 200px;
+  width: 15%;
   background-color: #d9534f;
   animation-duration: 1s;
   overflow: auto;
@@ -16017,7 +16017,7 @@ img {
   animation-name: offcanvasOpenStart;
   position: absolute;
   height: 100vh;
-  width: 350px;
+  width: 25%;
   background-color: #f7f7f7;
   animation-duration: 1s;
   overflow: auto;
@@ -16038,7 +16038,7 @@ img {
   animation-name: offcanvasOpenStart;
   position: absolute;
   height: 100vh;
-  width: 500px;
+  width: 35%;
   background-color: #f7f7f7;
   animation-duration: 1s;
   overflow: auto;
@@ -16059,7 +16059,7 @@ img {
   animation-name: offcanvasOpenStart;
   position: absolute;
   height: 100vh;
-  width: 200px;
+  width: 15%;
   background-color: #f7f7f7;
   animation-duration: 1s;
   overflow: auto;
@@ -16080,7 +16080,7 @@ img {
   animation-name: offcanvasOpenEnd;
   position: absolute;
   height: 100vh;
-  width: 350px;
+  width: 25%;
   background-color: #f7f7f7;
   animation-duration: 1s;
   overflow: auto;
@@ -16101,7 +16101,7 @@ img {
   animation-name: offcanvasOpenEnd;
   position: absolute;
   height: 100vh;
-  width: 500px;
+  width: 35%;
   background-color: #f7f7f7;
   animation-duration: 1s;
   overflow: auto;
@@ -16122,7 +16122,7 @@ img {
   animation-name: offcanvasOpenEnd;
   position: absolute;
   height: 100vh;
-  width: 200px;
+  width: 15%;
   background-color: #f7f7f7;
   animation-duration: 1s;
   overflow: auto;
@@ -16143,7 +16143,7 @@ img {
   animation-name: offcanvasOpenStart;
   position: absolute;
   height: 100vh;
-  width: 350px;
+  width: 25%;
   background-color: #292b2c;
   animation-duration: 1s;
   overflow: auto;
@@ -16164,7 +16164,7 @@ img {
   animation-name: offcanvasOpenStart;
   position: absolute;
   height: 100vh;
-  width: 500px;
+  width: 35%;
   background-color: #292b2c;
   animation-duration: 1s;
   overflow: auto;
@@ -16185,7 +16185,7 @@ img {
   animation-name: offcanvasOpenStart;
   position: absolute;
   height: 100vh;
-  width: 200px;
+  width: 15%;
   background-color: #292b2c;
   animation-duration: 1s;
   overflow: auto;
@@ -16206,7 +16206,7 @@ img {
   animation-name: offcanvasOpenEnd;
   position: absolute;
   height: 100vh;
-  width: 350px;
+  width: 25%;
   background-color: #292b2c;
   animation-duration: 1s;
   overflow: auto;
@@ -16227,7 +16227,7 @@ img {
   animation-name: offcanvasOpenEnd;
   position: absolute;
   height: 100vh;
-  width: 500px;
+  width: 35%;
   background-color: #292b2c;
   animation-duration: 1s;
   overflow: auto;
@@ -16248,7 +16248,7 @@ img {
   animation-name: offcanvasOpenEnd;
   position: absolute;
   height: 100vh;
-  width: 200px;
+  width: 15%;
   background-color: #292b2c;
   animation-duration: 1s;
   overflow: auto;
@@ -16269,7 +16269,7 @@ img {
   animation-name: offcanvasOpenStart;
   position: absolute;
   height: 100vh;
-  width: 350px;
+  width: 25%;
   background-color: #19e635;
   animation-duration: 1s;
   overflow: auto;
@@ -16290,7 +16290,7 @@ img {
   animation-name: offcanvasOpenStart;
   position: absolute;
   height: 100vh;
-  width: 500px;
+  width: 35%;
   background-color: #19e635;
   animation-duration: 1s;
   overflow: auto;
@@ -16311,7 +16311,7 @@ img {
   animation-name: offcanvasOpenStart;
   position: absolute;
   height: 100vh;
-  width: 200px;
+  width: 15%;
   background-color: #19e635;
   animation-duration: 1s;
   overflow: auto;
@@ -16332,7 +16332,7 @@ img {
   animation-name: offcanvasOpenEnd;
   position: absolute;
   height: 100vh;
-  width: 350px;
+  width: 25%;
   background-color: #19e635;
   animation-duration: 1s;
   overflow: auto;
@@ -16353,7 +16353,7 @@ img {
   animation-name: offcanvasOpenEnd;
   position: absolute;
   height: 100vh;
-  width: 500px;
+  width: 35%;
   background-color: #19e635;
   animation-duration: 1s;
   overflow: auto;
@@ -16374,7 +16374,7 @@ img {
   animation-name: offcanvasOpenEnd;
   position: absolute;
   height: 100vh;
-  width: 200px;
+  width: 15%;
   background-color: #19e635;
   animation-duration: 1s;
   overflow: auto;
@@ -16395,7 +16395,7 @@ img {
   animation-name: offcanvasOpenStart;
   position: absolute;
   height: 100vh;
-  width: 350px;
+  width: 25%;
   background-color: #ffa600;
   animation-duration: 1s;
   overflow: auto;
@@ -16416,7 +16416,7 @@ img {
   animation-name: offcanvasOpenStart;
   position: absolute;
   height: 100vh;
-  width: 500px;
+  width: 35%;
   background-color: #ffa600;
   animation-duration: 1s;
   overflow: auto;
@@ -16437,7 +16437,7 @@ img {
   animation-name: offcanvasOpenStart;
   position: absolute;
   height: 100vh;
-  width: 200px;
+  width: 15%;
   background-color: #ffa600;
   animation-duration: 1s;
   overflow: auto;
@@ -16458,7 +16458,7 @@ img {
   animation-name: offcanvasOpenEnd;
   position: absolute;
   height: 100vh;
-  width: 350px;
+  width: 25%;
   background-color: #ffa600;
   animation-duration: 1s;
   overflow: auto;
@@ -16479,7 +16479,7 @@ img {
   animation-name: offcanvasOpenEnd;
   position: absolute;
   height: 100vh;
-  width: 500px;
+  width: 35%;
   background-color: #ffa600;
   animation-duration: 1s;
   overflow: auto;
@@ -16500,7 +16500,7 @@ img {
   animation-name: offcanvasOpenEnd;
   position: absolute;
   height: 100vh;
-  width: 200px;
+  width: 15%;
   background-color: #ffa600;
   animation-duration: 1s;
   overflow: auto;
@@ -16521,7 +16521,7 @@ img {
   animation-name: offcanvasOpenStart;
   position: absolute;
   height: 100vh;
-  width: 350px;
+  width: 25%;
   background-color: #9900ff;
   animation-duration: 1s;
   overflow: auto;
@@ -16542,7 +16542,7 @@ img {
   animation-name: offcanvasOpenStart;
   position: absolute;
   height: 100vh;
-  width: 500px;
+  width: 35%;
   background-color: #9900ff;
   animation-duration: 1s;
   overflow: auto;
@@ -16563,7 +16563,7 @@ img {
   animation-name: offcanvasOpenStart;
   position: absolute;
   height: 100vh;
-  width: 200px;
+  width: 15%;
   background-color: #9900ff;
   animation-duration: 1s;
   overflow: auto;
@@ -16584,7 +16584,7 @@ img {
   animation-name: offcanvasOpenEnd;
   position: absolute;
   height: 100vh;
-  width: 350px;
+  width: 25%;
   background-color: #9900ff;
   animation-duration: 1s;
   overflow: auto;
@@ -16605,7 +16605,7 @@ img {
   animation-name: offcanvasOpenEnd;
   position: absolute;
   height: 100vh;
-  width: 500px;
+  width: 35%;
   background-color: #9900ff;
   animation-duration: 1s;
   overflow: auto;
@@ -16626,7 +16626,7 @@ img {
   animation-name: offcanvasOpenEnd;
   position: absolute;
   height: 100vh;
-  width: 200px;
+  width: 15%;
   background-color: #9900ff;
   animation-duration: 1s;
   overflow: auto;
@@ -16647,7 +16647,7 @@ img {
   animation-name: offcanvasOpenStart;
   position: absolute;
   height: 100vh;
-  width: 350px;
+  width: 25%;
   background-color: #808080;
   animation-duration: 1s;
   overflow: auto;
@@ -16668,7 +16668,7 @@ img {
   animation-name: offcanvasOpenStart;
   position: absolute;
   height: 100vh;
-  width: 500px;
+  width: 35%;
   background-color: #808080;
   animation-duration: 1s;
   overflow: auto;
@@ -16689,7 +16689,7 @@ img {
   animation-name: offcanvasOpenStart;
   position: absolute;
   height: 100vh;
-  width: 200px;
+  width: 15%;
   background-color: #808080;
   animation-duration: 1s;
   overflow: auto;
@@ -16710,7 +16710,7 @@ img {
   animation-name: offcanvasOpenEnd;
   position: absolute;
   height: 100vh;
-  width: 350px;
+  width: 25%;
   background-color: #808080;
   animation-duration: 1s;
   overflow: auto;
@@ -16731,7 +16731,7 @@ img {
   animation-name: offcanvasOpenEnd;
   position: absolute;
   height: 100vh;
-  width: 500px;
+  width: 35%;
   background-color: #808080;
   animation-duration: 1s;
   overflow: auto;
@@ -16752,7 +16752,7 @@ img {
   animation-name: offcanvasOpenEnd;
   position: absolute;
   height: 100vh;
-  width: 200px;
+  width: 15%;
   background-color: #808080;
   animation-duration: 1s;
   overflow: auto;
@@ -16773,7 +16773,7 @@ img {
   animation-name: offcanvasOpenStart;
   position: absolute;
   height: 100vh;
-  width: 350px;
+  width: 25%;
   background-color: white;
   animation-duration: 1s;
   overflow: auto;
@@ -16794,7 +16794,7 @@ img {
   animation-name: offcanvasOpenStart;
   position: absolute;
   height: 100vh;
-  width: 500px;
+  width: 35%;
   background-color: white;
   animation-duration: 1s;
   overflow: auto;
@@ -16815,7 +16815,7 @@ img {
   animation-name: offcanvasOpenStart;
   position: absolute;
   height: 100vh;
-  width: 200px;
+  width: 15%;
   background-color: white;
   animation-duration: 1s;
   overflow: auto;
@@ -16836,7 +16836,7 @@ img {
   animation-name: offcanvasOpenEnd;
   position: absolute;
   height: 100vh;
-  width: 350px;
+  width: 25%;
   background-color: white;
   animation-duration: 1s;
   overflow: auto;
@@ -16857,7 +16857,7 @@ img {
   animation-name: offcanvasOpenEnd;
   position: absolute;
   height: 100vh;
-  width: 500px;
+  width: 35%;
   background-color: white;
   animation-duration: 1s;
   overflow: auto;
@@ -16878,7 +16878,7 @@ img {
   animation-name: offcanvasOpenEnd;
   position: absolute;
   height: 100vh;
-  width: 200px;
+  width: 15%;
   background-color: white;
   animation-duration: 1s;
   overflow: auto;
@@ -16899,7 +16899,7 @@ img {
   animation-name: offcanvasOpenStart;
   position: absolute;
   height: 100vh;
-  width: 350px;
+  width: 25%;
   background-color: black;
   animation-duration: 1s;
   overflow: auto;
@@ -16920,7 +16920,7 @@ img {
   animation-name: offcanvasOpenStart;
   position: absolute;
   height: 100vh;
-  width: 500px;
+  width: 35%;
   background-color: black;
   animation-duration: 1s;
   overflow: auto;
@@ -16941,7 +16941,7 @@ img {
   animation-name: offcanvasOpenStart;
   position: absolute;
   height: 100vh;
-  width: 200px;
+  width: 15%;
   background-color: black;
   animation-duration: 1s;
   overflow: auto;
@@ -16962,7 +16962,7 @@ img {
   animation-name: offcanvasOpenEnd;
   position: absolute;
   height: 100vh;
-  width: 350px;
+  width: 25%;
   background-color: black;
   animation-duration: 1s;
   overflow: auto;
@@ -16983,7 +16983,7 @@ img {
   animation-name: offcanvasOpenEnd;
   position: absolute;
   height: 100vh;
-  width: 500px;
+  width: 35%;
   background-color: black;
   animation-duration: 1s;
   overflow: auto;
@@ -17004,7 +17004,7 @@ img {
   animation-name: offcanvasOpenEnd;
   position: absolute;
   height: 100vh;
-  width: 200px;
+  width: 15%;
   background-color: black;
   animation-duration: 1s;
   overflow: auto;
@@ -17025,7 +17025,7 @@ img {
   animation-name: offcanvasOpenStart;
   position: absolute;
   height: 100vh;
-  width: 350px;
+  width: 25%;
   background-color: #BECCC6;
   animation-duration: 1s;
   overflow: auto;
@@ -17046,7 +17046,7 @@ img {
   animation-name: offcanvasOpenStart;
   position: absolute;
   height: 100vh;
-  width: 500px;
+  width: 35%;
   background-color: #BECCC6;
   animation-duration: 1s;
   overflow: auto;
@@ -17067,7 +17067,7 @@ img {
   animation-name: offcanvasOpenStart;
   position: absolute;
   height: 100vh;
-  width: 200px;
+  width: 15%;
   background-color: #BECCC6;
   animation-duration: 1s;
   overflow: auto;
@@ -17088,7 +17088,7 @@ img {
   animation-name: offcanvasOpenEnd;
   position: absolute;
   height: 100vh;
-  width: 350px;
+  width: 25%;
   background-color: #BECCC6;
   animation-duration: 1s;
   overflow: auto;
@@ -17109,7 +17109,7 @@ img {
   animation-name: offcanvasOpenEnd;
   position: absolute;
   height: 100vh;
-  width: 500px;
+  width: 35%;
   background-color: #BECCC6;
   animation-duration: 1s;
   overflow: auto;
@@ -17130,7 +17130,7 @@ img {
   animation-name: offcanvasOpenEnd;
   position: absolute;
   height: 100vh;
-  width: 200px;
+  width: 15%;
   background-color: #BECCC6;
   animation-duration: 1s;
   overflow: auto;
