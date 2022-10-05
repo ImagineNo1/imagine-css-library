@@ -6,11 +6,13 @@
 @import 'checkpoints';
 @import 'base';
 @import 'grid';
+
 // colors
 
 @import 'colors';
 
 // components (button , card ,navbar )
+
 @import 'components/close';
 @import 'components/navbar';
 @import 'components/lists';
@@ -19,6 +21,7 @@
 @import 'components/button';
 @import 'components/offcanvas';
 @import 'components/modal';
+@import 'components/alerts';
 
 // utilities (margin , padding , opacity )
 

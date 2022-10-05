@@ -36,6 +36,7 @@
                 <div class="col-12-xs col-3-lg overflow-auto">
                     <h1 class="text-center FontFamily-writing display-4">Chapters</h1>
                     <div class="list-group">
+                        <div id="getStart" class="list-item bs-3">Getting Start !</div>
                         <div id="navbar" class="list-item bs-3">Navbar</div>
                         <div id="offcanvas" class="list-item bs-3">Offcanvas</div>
                         <div id="modals" class="list-item bs-3">Modals</div>
@@ -51,8 +52,31 @@
                     
                     <!-- Components  -->
 
+                    <!-- get start !  -->
+
+                    <div id="getStartC" style="display:block ;" class="mt-1">
+                        <p class="display-6">Get Start</p>
+                        <p class="h3">Welcome To Imagine Css Library !</p>
+                        <div class="bg-light mt-2 p-1 bs-3">
+                            <p class="fs-xl mb-2">Installation : </p>
+                            <p>Step 1 : Head Over To your Project Folder And Open your terminal and type this text : <br>
+                                <span class="text-primary ps-1">git clone https://github.com/ImagineNo1/imagine-css-library.git</span><br>
+                                Step 2 : Go to imagine-css-library folder and open the terminal and type this command : <br>
+                                <span class="ps-1 text-primary">npm install</span><br>
+                                Step 3 : in the terminal type this commad and wait untill the process finish <br>
+                                <span class="ps-1 text-primary">gulp</span><br>
+                                Step 4 : your css file is in this path : <br>
+                                <span class="text-purple ps-1">imagine-css-library/css/index.css</span><br>
+                                Step 5 : Also your javascript bundle is in this path : <br>
+                                <span class="text-purple ps-1">imagine-css-library/imagine/js/index.js</span><br>         
+                            </p>
+                            <p class="mt-2 text-center fs-lg">Step 6 :Use this two files into your project And its all done !</p> 
+                        </div>
+                    </div>
+                    <!-- End of Get Start !  -->
+
                     <!-- Start of Navbar  -->
-                        <div id="navbarC" style="display:block ;">
+                        <div id="navbarC" style="display:none ;">
 
                             <p class="display-6">Navbar</p>
                             <p class="mb-1">Imagine Css library has its own Navbar Component which is fully responsive and in smaller sizes the toggle button will be active</p>
@@ -378,20 +402,135 @@
                     <div id="gridsystemC" style="display:none ;">
 
                         <p class="display-6">GridSystems</p>
-                        <p class="mb-1">Imagine Css library has its own Navbar Component which is fully responsive and in smaller sizes the toggle button will be active</p>
+                        <p class="my-1">Imagine Library has it own grid system which allows you to hav a fully responsive website in all sacales</p>
                         <hr>
-                        <p class="my-1 h1">How to use Navbar ?</p>
-                        <p class="mb-2">well to use Navbar component you need to use follwing components</p>
-                        <hr>
-                        <p class="bg-light p-1 bs-4">
-                            <span class="text-primary fs-md">.navbar</span> : you need to use it for your nav tag 
-                            <br>
-                            <span class="text-primary fs-md">.nav-brend</span> : in this tag name your brand name
-                            <br>
-                            <span class="text-primary fs-md">.nav-links</span> : in other side use your ul and li in the div with this class
-                            <br>
-                            <span class="text-primary fs-md">.toggle-button</span> : use another html tag woth this class and you need to use onlick method with this javascript function (toggleNavbar) inside it
+                        <p class="p-1 bg-light bs-3 my-1"> Imagine grid system makes whole component to <span class="text-underline fw-bold">12</span> columns , 
+                            you can choose how many columns and element can have in every scale of screen     
                         </p>
+                        <p class="alert-danger">Note : Every line can have 12 columns if your elemts have more than 12 columns then the gonna go to next line </p>
+                        <p class="my-1 bg-light p-1 bs-3">How We can use this grid system is super easy to learn . First of all you need to use 
+                            <span class="text-primary">.row</span> class . Second We gonna use are 
+                            <span class="text-primary">.col</span> classes inside it 
+                        </p>
+                        <p class="my-2 h1">Example :</p>
+                        <div class="mb-1 p-1 bg-light bs-3">
+                            &lt;<span class="text-danger">div</span> class="<span class="text-primary">row</span>"&gt;<br>
+                                &emsp;&lt;<span class="text-danger">div</span> class= "<span class="text-primary">col-6</span>"&gt;<br>
+                                    &emsp;&emsp; This Div Has 6 columns
+                                <br>&emsp;&lt;<span class="text-danger">/div</span>&gt;
+                               <br>&emsp;&lt;<span class="text-danger">div</span> class= "<span class="text-primary">col-6</span>"&gt;<br>
+                                &emsp;&emsp; This Div Has 6 columns Too
+                            <br>&emsp;&lt;<span class="text-danger">/div</span>&gt;
+                            <br>&lt;<span class="text-danger">/div</span>&gt;<br>
+                            <hr class="my-1">
+                            <div class="row">
+                                <div class="col-6">
+                                    This Div Has 6 columns 
+                                </div>
+                                <div class="col-6">
+                                    This Div Has 6 columns 
+                                </div>
+                            </div>
+                        </div>
+                        <div class="my-2 p-1 bg-light bs-3">
+                            <p>Imagine Grid System Have Some <span class="fw-bold">BreakPoints</span> For screen sizes 
+                                , when the screen size pass over them the rules are gonna change ! 
+                            </p>
+                            <p class="mt-2">
+                                <span class="text-primary">xs</span> : ( Minimum width : 0 px )<br>
+                                <span class="text-primary">sm</span> : ( Minimum width : 480 px )<br>
+                                <span class="text-primary">md</span> : ( Minimum width : 720 px )<br>
+                                <span class="text-primary">lg</span> : ( Minimum width : 960 px )<br>
+                                <span class="text-primary">xl</span> : ( Minimum width : 1200 px )<br>
+                                <span class="text-primary">xxl</span> : ( Minimum width : 1440 px )<br>
+                            </p>
+                        </div>
+                        <div class="alert-danger">Note : For example if browser width passed from 480 px which is 
+                            start of sm width then the classes with xs are not gonna worl
+                        </div>
+                        
+                        <p class="bg-light p-1 my-2 bs-3">
+                            For using this brack points for making fully responsive website just 
+                            add this brackpoints at the end off the class,
+                            watch the Example To learn .
+                        </p>
+                        <p class="my-2 h1">Example :</p>
+                        <div class="mb-1 p-1 bg-light bs-3">
+                            &lt;<span class="text-danger">div</span> class="<span class="text-primary">row</span>"&gt;<br>
+                                &emsp;&lt;<span class="text-danger">div</span> class= "<span class="text-primary">col-12-xs col-8-md col-5-lg</span>"&gt;<br>
+                                    &emsp;&emsp; Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                                <br>&emsp;&lt;<span class="text-danger">/div</span>&gt;
+                               <br>&emsp;&lt;<span class="text-danger">div</span> class= "<span class="text-primary">col-12-xs col-8-md col-5-lg</span>"&gt;<br>
+                                &emsp;&emsp; Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                            <br>&emsp;&lt;<span class="text-danger">/div</span>&gt;
+                            <br>&lt;<span class="text-danger">/div</span>&gt;<br>
+                            <hr class="my-1">
+                            <div class="row">
+                                <div class="col-12-xs col-8-md col-5-lg">
+                                    change your screen size to feel changes
+                                </div>
+                                <div class="col-12-xs col-8-md col-5-lg">
+                                    change your screen size to feel changes
+                                </div>
+                            </div>
+                        </div>
+                        <p class="p-1 my-1 bg-light bs-3">
+                            We have three classes for designing better this grid system 
+                            which you can use with <span class="text-primary">.row</span> class :<br>
+
+                            <span class="text-primary">justify-content-center </span> : 
+                            you can also use this names instead of center  : 
+                            (<span class="text-primary">around</span> , <span class="text-primary">between</span> 
+                            , <span class="text-primary">end</span> , <span class="text-primary">start</span>)
+                            <br>
+                            <span class="text-primary">align-items-center</span> 
+                            you can also use this names instead of center  : 
+                            (<span class="text-primary">around</span> , <span class="text-primary">between</span> 
+                            , <span class="text-primary">end</span> , <span class="text-primary">start</span>)
+                            <br>
+                            <span class="text-primary">gap-3</span> 
+                            you can also use numbers from 1 to 5 instead of 3 , it just have diffrent gap you can choose between
+                            <br>
+                        </p>
+                        <p class="my-2 h1">Example :</p>
+                        <div class="mb-1 p-1 bg-light bs-3">
+                            &lt;<span class="text-danger">div</span> class="<span class="text-primary">row justify-content-center gap-2</span>"&gt;<br>
+                                &emsp;&lt;<span class="text-danger">div</span> class= "<span class="text-primary">col-12-xs col-8-md col-5-lg</span>"&gt;<br>
+                                    &emsp;&emsp; Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                                <br>&emsp;&lt;<span class="text-danger">/div</span>&gt;
+                               <br>&emsp;&lt;<span class="text-danger">div</span> class= "<span class="text-primary">col-12-xs col-8-md col-5-lg</span>"&gt;<br>
+                                &emsp;&emsp; Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                            <br>&emsp;&lt;<span class="text-danger">/div</span>&gt;
+                            <br>&lt;<span class="text-danger">/div</span>&gt;<br>
+                            <hr class="my-1">
+                            <div class="row justify-content-center gap-2">
+                                <div class="col-12-xs col-8-md col-5-lg">
+                                    change your screen size to feel changes
+                                </div>
+                                <div class="col-12-xs col-8-md col-5-lg">
+                                    change your screen size to feel changes
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="alert-success">
+                            At The End of grid system , You can use this breack points at the end off all utilities which is in utility page 
+                            like : <br>
+                            <span class="text-primary">fs-md-xs</span> and <span class="text-primary">fs-xxl-md</span>
+                        </div>
+
+                        <p class="my-2 h1">Example :</p>
+                        <div class="mb-1 p-1 bg-light bs-3">
+
+                            &lt;<span class="text-danger">div class="fs-md-xs fs-xl-md"</span>&gt; <br>
+                                &emsp; Look At This Text Change size 
+                            <br>&lt;<span class="text-danger">/div</span>&gt;
+
+                            <hr class="my-1">
+                            <div class="fs-md-xs fs-xl-md">
+                                Look At This Text Change size 
+                            </div>
+                        </div>
                     </div>
 
                 <!-- End of Grid System   -->

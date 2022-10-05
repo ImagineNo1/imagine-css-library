@@ -1,5 +1,6 @@
 // Elements
 
+const getStart = document.querySelector('#getStart')
 const navbar = document.querySelector('#navbar')
 const offcanvas = document.querySelector('#offcanvas')
 const modals = document.querySelector('#modals')
@@ -17,6 +18,7 @@ const position = document.querySelector('#position')
 const animation = document.querySelector('#animation')
 const height = document.querySelector('#height')
 /////////////////////////
+const getStartC = document.querySelector('#getStartC')
 const navbarC = document.querySelector('#navbarC')
 const offcanvasC = document.querySelector('#offcanvasC')
 const modalsC = document.querySelector('#modalsC')
@@ -34,14 +36,40 @@ const positionC = document.querySelector('#positionC')
 const animationC = document.querySelector('#animationC')
 const heightC = document.querySelector('#heightC')
 /////////////////////////
-navbar.style.border = "3px solid black";
+getStart.style.border = "3px solid black";
 marginC.style.display = 'block';
 margin.style.border = "3px solid black";
 
 // Functions 
 
+const getStartShow = () => {
+    getStartC.style.display = 'block';
+    getStart.style.border = "3px solid black";
+    navbarC.style.display = 'none';
+    offcanvasC.style.display = 'none';
+    modalsC.style.display = 'none';
+    gridSystemD.style.display = 'none'
+    utilitiesC.style.display = 'none';
+    cardC.style.display = 'none';
+    FormsC.style.display = 'none';
+    ButtonsC.style.display = 'none';
+    closeC.style.display = 'none';
+
+    navbar.style.border = "";
+    offcanvas.style.border = "";
+    modals.style.border = "";
+    gridsystem.style.border = "";
+    utilities.style.border = "";
+    card.style.border = "";
+    Forms.style.border = "";
+    Buttons.style.border = "";
+    closee.style.border = "";
+
+}
 
 const navbarShow = () => {
+
+
     navbarC.style.display = 'block';
     navbar.style.border = "3px solid black";
     offcanvasC.style.display = 'none';
@@ -61,7 +89,8 @@ const navbarShow = () => {
     Forms.style.border = "";
     Buttons.style.border = "";
     closee.style.border = "";
-
+    getStartC.style.display = 'none';
+    getStart.style.border = "";
 }
 const offcanshow = () => {
     navbarC.style.display = 'none';
@@ -83,6 +112,8 @@ const offcanshow = () => {
     Forms.style.border = "";
     Buttons.style.border = "";
     closee.style.border = "";
+    getStartC.style.display = 'none';
+    getStart.style.border = "";
 }
 const modalshow = () => {
     navbarC.style.display = 'none';
@@ -103,6 +134,8 @@ const modalshow = () => {
     Forms.style.border = "";
     Buttons.style.border = "";
     closee.style.border = "";
+    getStartC.style.display = 'none';
+    getStart.style.border = "";
 }
 const gridshow = () => {
     navbarC.style.display = 'none';
@@ -124,6 +157,8 @@ const gridshow = () => {
     Forms.style.border = "";
     Buttons.style.border = "";
     closee.style.border = "";
+    getStartC.style.display = 'none';
+    getStart.style.border = "";
 }
 const utilityshow = () => {
     navbarC.style.display = 'none';
@@ -145,6 +180,8 @@ const utilityshow = () => {
     Forms.style.border = "";
     Buttons.style.border = "";
     closee.style.border = "";
+    getStartC.style.display = 'none';
+    getStart.style.border = "";
 }
 const cardshow = () => {
     navbarC.style.display = 'none';
@@ -166,6 +203,8 @@ const cardshow = () => {
     Forms.style.border = "";
     Buttons.style.border = "";
     closee.style.border = "";
+    getStartC.style.display = 'none';
+    getStart.style.border = "";
 }
 const formshow = () => {
     navbarC.style.display = 'none';
@@ -187,6 +226,8 @@ const formshow = () => {
     navbar.style.border = "";
     Buttons.style.border = "";
     closee.style.border = "";
+    getStartC.style.display = 'none';
+    getStart.style.border = "";
 }
 const buttonshow = () => {
     navbarC.style.display = 'none';
@@ -208,6 +249,8 @@ const buttonshow = () => {
     Forms.style.border = "";
     navbar.style.border = "";
     closee.style.border = "";
+    getStartC.style.display = 'none';
+    getStart.style.border = "";
 }
 const closeeshow = () => {
     navbarC.style.display = 'none';
@@ -229,6 +272,8 @@ const closeeshow = () => {
     Forms.style.border = "";
     Buttons.style.border = "";
     navbar.style.border = "";
+    getStartC.style.display = 'none';
+    getStart.style.border = "";
 }
 
 const marginShow = () => {
@@ -245,6 +290,8 @@ const marginShow = () => {
     position.style.border = '';
     animation.style.border = '';
     height.style.border = '';
+        getStartC.style.display = 'none';
+    getStart.style.border = "";
 }
 const fontShow = () => {
     marginC.style.display = 'none';
@@ -329,7 +376,7 @@ const heightShow = () => {
 
 // Events 
 
-
+getStart.addEventListener('click',getStartShow)
 navbar.addEventListener('click',navbarShow)
 offcanvas.addEventListener('click',offcanshow)
 modals.addEventListener('click',modalshow)
