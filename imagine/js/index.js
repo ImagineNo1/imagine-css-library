@@ -2,9 +2,13 @@ let activeComponent = 'none' ;
 let activeComponentType ;
 let newActiveComponent ;
 
-const closeOffcanvas = document.querySelector('.closeOffcanvas')
-const closeModal = document.querySelector('.closeModal')
+// const closeOffcanvas = document.querySelectorAll('.closeOffcanvas')
+// const closeModal = document.querySelector('.closeModal')
 const close = document.querySelector('.close')
+
+let closeOffcanvas;
+let closeModal;
+// let close;
 
 
 const toggleNavLinks = ()=> {
@@ -25,8 +29,10 @@ const offcanvasDisplay = (target) => {
             activeComponent = newActiveComponent ;
             activeComponentType = 'offcanvas' ;
          },100)
+         closeOffcanvas = target.firstElementChild.firstElementChild;
+         closeModal = target.firstElementChild.firstElementChild;
 
-    }else if(display == 'block'){
+        }else if(display == 'block'){
         target.style.display = "none";
         document.body.classList.toggle('stop-scrolling')
         activeComponent = 'none';
@@ -47,6 +53,9 @@ const ModalDisplay = (target) => {
             activeComponentType = 'modal' ;
 
          },100)
+         closeOffcanvas = target.firstElementChild.firstElementChild;
+         closeModal = target.firstElementChild.firstElementChild;
+
     }else if(display == 'block'){
         target.style.display = "none";
         document.body.classList.toggle('stop-scrolling')
