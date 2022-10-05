@@ -18,9 +18,17 @@
     @extend %flex-style;
     padding: $base-padding $base-padding * 2;
     box-shadow: $base-box-shadow;
-
+    position: relative;
     .nav-brand {
-        font-size: $font-size-lg;
+        @include xs {
+            font-size: $font-size-sm;
+        }
+        @include sm {
+            font-size: $font-size-md;
+        }
+        @include md {
+            font-size: $font-size-lg;
+        }
         font-weight: bold;
     }
     .active {

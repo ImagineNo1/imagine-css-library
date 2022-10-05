@@ -13874,10 +13874,25 @@ img {
 .navbar, .navbar-light, .navbar-black, .navbar-white, .navbar-gray, .navbar-purple, .navbar-orange, .navbar-green, .navbar-dark, .navbar-faded, .navbar-danger, .navbar-warning, .navbar-success, .navbar-secondary, .navbar-primary {
   padding: 0.75rem 1.5rem;
   box-shadow: 1px 3px 5px rgba(0, 0, 0, 0.1);
+  position: relative;
 }
 .navbar .nav-brand, .navbar-light .nav-brand, .navbar-black .nav-brand, .navbar-white .nav-brand, .navbar-gray .nav-brand, .navbar-purple .nav-brand, .navbar-orange .nav-brand, .navbar-green .nav-brand, .navbar-dark .nav-brand, .navbar-faded .nav-brand, .navbar-danger .nav-brand, .navbar-warning .nav-brand, .navbar-success .nav-brand, .navbar-secondary .nav-brand, .navbar-primary .nav-brand {
-  font-size: 1.5rem;
   font-weight: bold;
+}
+@media (min-width: 0) {
+  .navbar .nav-brand, .navbar-light .nav-brand, .navbar-black .nav-brand, .navbar-white .nav-brand, .navbar-gray .nav-brand, .navbar-purple .nav-brand, .navbar-orange .nav-brand, .navbar-green .nav-brand, .navbar-dark .nav-brand, .navbar-faded .nav-brand, .navbar-danger .nav-brand, .navbar-warning .nav-brand, .navbar-success .nav-brand, .navbar-secondary .nav-brand, .navbar-primary .nav-brand {
+    font-size: 0.75rem;
+  }
+}
+@media (min-width: 480px) {
+  .navbar .nav-brand, .navbar-light .nav-brand, .navbar-black .nav-brand, .navbar-white .nav-brand, .navbar-gray .nav-brand, .navbar-purple .nav-brand, .navbar-orange .nav-brand, .navbar-green .nav-brand, .navbar-dark .nav-brand, .navbar-faded .nav-brand, .navbar-danger .nav-brand, .navbar-warning .nav-brand, .navbar-success .nav-brand, .navbar-secondary .nav-brand, .navbar-primary .nav-brand {
+    font-size: 1.3rem;
+  }
+}
+@media (min-width: 720px) {
+  .navbar .nav-brand, .navbar-light .nav-brand, .navbar-black .nav-brand, .navbar-white .nav-brand, .navbar-gray .nav-brand, .navbar-purple .nav-brand, .navbar-orange .nav-brand, .navbar-green .nav-brand, .navbar-dark .nav-brand, .navbar-faded .nav-brand, .navbar-danger .nav-brand, .navbar-warning .nav-brand, .navbar-success .nav-brand, .navbar-secondary .nav-brand, .navbar-primary .nav-brand {
+    font-size: 1.5rem;
+  }
 }
 .navbar .active, .navbar-light .active, .navbar-black .active, .navbar-white .active, .navbar-gray .active, .navbar-purple .active, .navbar-orange .active, .navbar-green .active, .navbar-dark .active, .navbar-faded .active, .navbar-danger .active, .navbar-warning .active, .navbar-success .active, .navbar-secondary .active, .navbar-primary .active {
   display: flex !important;
