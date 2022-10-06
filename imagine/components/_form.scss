@@ -3,19 +3,27 @@
 .form{
 
     width: 100%;
+    margin: $base-margin * 2  0;
+    padding: math.div($base-padding,2);
+    background-color: #f6f6f6;
 
     .form-label{
         display: block;
         margin-bottom: $base-margin;
-        font-style: oblique;
+        font-family: 'Noto Sans Mono';
+        font-weight: 800;
+        font-size: 18px;
+        padding-left: math.div($base-padding ,2.5 );
         width: 100%;
         
     }
     .form-input{
         display: block;
         margin-bottom: $base-margin;
-        padding: math.div($base-padding , 2) $base-padding * 2;
+        padding: math.div($base-padding , 1.3) $base-padding * 2;
+        border: 1px solid black;
         width: 100%;
-        
+        font-size: 18px;
+        border-radius: math.div($base-border-radius,2);
     }
 }

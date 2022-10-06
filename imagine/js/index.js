@@ -11,10 +11,9 @@ let closeModal;
 // let close;
 
 
-const toggleNavLinks = ()=> {
-            
-    const navLinks = document.querySelector('.nav-links')
-    navLinks.classList.toggle("active");
+const toggleNavLinks = (id)=> {
+    
+    id.classList.toggle("active");            
 }
 
 const offcanvasDisplay = (target) => {
