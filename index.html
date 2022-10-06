@@ -15,12 +15,12 @@
             <div class="nav-brand">
                 Imagine Css Library
             </div>
-            <a href="#" class="toggle-button" onclick="toggleNavLinks()">
+            <div class="toggle-button" onclick="toggleNavLinks(nav1)">
                 <span></span>
                 <span></span>
                 <span></span>
-            </a>
-            <div class="nav-links">
+            </div>
+            <div class="nav-links" id="nav1">
                 <ul>
                     <li><a onclick="ModalDisplay(getStarted)">Get Started</a></li>
                     <li><a onclick="offcanvasDisplay(AboutUs)">About Us</a></li>
@@ -82,7 +82,7 @@
                             <p class="mb-1">Imagine Css library has its own Navbar Component which is fully responsive and in smaller sizes the toggle button will be active</p>
                             <hr>
                             <p class="my-1 h1">How to use Navbar ?</p>
-                            <p class="mb-2">well to use Navbar component you need to do follwing steps</p>
+                            <p class="mb-2">well to use Navbar component you need to do following steps</p>
                             <hr>
                             <p class="bg-light p-1 bs-4">
                                 <span class="text-primary fs-md">.navbar</span> : you need to use it for your nav tag 
@@ -90,6 +90,7 @@
                                 <span class="text-primary fs-md">.nav-brand</span> : in this tag name your brand name
                                 <br>
                                 <span class="text-primary fs-md">.nav-links</span> : in other side use your ul and li in the div with this class
+                                    This div should have specefic id and this id should entered in toggleNavLinks() function like examples
                                 <br>
                                 <span class="text-primary fs-md">.toggle-button</span> : use another html tag woth this class and you need to use onlick method with this javascript function (toggleNavbar) inside it
                                 <br>
@@ -100,12 +101,12 @@
                             <nav class="navbar">
                                 <div class="container-xxl">
                                     <div class="nav-brand">Imagine Css Library</div>
-                                    <a href="#" class="toggle-button" onclick="toggleNavLinks()">
+                                    <div class="toggle-button" onclick="toggleNavLinks(nav2)">
                                         <span></span>
                                         <span></span>
                                         <span></span>
-                                    </a>
-                                    <div class="nav-links">
+                                    </div>
+                                    <div class="nav-links" id="nav2">
                                         <ul>
                                             <li><a href="#">Login</a></li>
                                             <li><a href="#">SignUp</a></li>
@@ -121,13 +122,13 @@
                                         &emsp;&emsp;&emsp;Feel The Code <br>
                                     &emsp;&emsp;&lt;<span class="text-danger">/div</span>&gt;
 
-                                    <br>&emsp;&emsp;&lt;<span class="text-danger">a</span> href="#" class="<span class="text-primary">toggle-button</span>" onclick = "<span class="text-danger">toggleNavLinks() </span>" &gt;
+                                    <br>&emsp;&emsp;&lt;<span class="text-danger">div</span> class="<span class="text-primary">toggle-button</span>" onclick = "<span class="text-danger">toggleNavLinks(nav2) </span>" &gt;
                                         <br>&emsp;&emsp;&emsp;&lt;span&gt;&lt;/span&gt;
                                         <br>&emsp;&emsp;&emsp;&lt;span&gt;&lt;/span&gt;
                                         <br>&emsp;&emsp;&emsp;&lt;span&gt;&lt;/span&gt;
-                                    <br>&emsp;&emsp;&lt;<span class="text-danger">/a </span>&gt;
+                                    <br>&emsp;&emsp;&lt;<span class="text-danger">/div </span>&gt;
 
-                                    <br>&emsp;&emsp;&lt;<span class="text-danger">div</span> class="<span class="text-primary">nav-links</span>" &gt;
+                                    <br>&emsp;&emsp;&lt;<span class="text-danger">div</span> class="<span class="text-primary">nav-links</span>"  id ="nav2"&gt;
                                         <br>&emsp;&emsp;&emsp;&lt;ul&gt; 
 
                                                 <br>&emsp;&emsp;&emsp;&emsp;&lt;li&gt; 
@@ -152,12 +153,12 @@
                             <nav class="navbar-success">
                                 <div class="container-xxl">
                                     <div class="nav-brand">Imagine Css Library</div>
-                                    <a href="#" class="toggle-button" onclick="toggleNavLinks()">
+                                    <div class="toggle-button" onclick="toggleNavLinks(nav3)">
                                         <span></span>
                                         <span></span>
                                         <span></span>
-                                    </a>
-                                    <div class="nav-links">
+                                    </div>
+                                    <div class="nav-links" id="nav3">
                                         <ul>
                                             <li><a href="#">Login</a></li>
                                             <li><a href="#">SignUp</a></li>
@@ -173,13 +174,13 @@
                                         &emsp;&emsp;&emsp;Feel The Code <br>
                                     &emsp;&emsp;&lt;<span class="text-danger">/div</span>&gt;
 
-                                    <br>&emsp;&emsp;&lt;<span class="text-danger">a</span> href="#" class="<span class="text-primary">toggle-button</span>" onclick = "<span class="text-danger">toggleNavLinks() </span>" &gt;
+                                    <br>&emsp;&emsp;&lt;<span class="text-danger">div</span> class="<span class="text-primary">toggle-button</span>" onclick = "<span class="text-danger">toggleNavLinks(nav3) </span>" &gt;
                                         <br>&emsp;&emsp;&emsp;&lt;span&gt;&lt;/span&gt;
                                         <br>&emsp;&emsp;&emsp;&lt;span&gt;&lt;/span&gt;
                                         <br>&emsp;&emsp;&emsp;&lt;span&gt;&lt;/span&gt;
-                                    <br>&emsp;&emsp;&lt;<span class="text-danger">/a </span>&gt;
+                                    <br>&emsp;&emsp;&lt;<span class="text-danger">/div </span>&gt;
 
-                                    <br>&emsp;&emsp;&lt;<span class="text-danger">div</span> class="<span class="text-primary">nav-links</span>" &gt;
+                                    <br>&emsp;&emsp;&lt;<span class="text-danger">div</span> class="<span class="text-primary">nav-links</span>" id="nav3" &gt;
                                         <br>&emsp;&emsp;&emsp;&lt;ul&gt; 
 
                                                 <br>&emsp;&emsp;&emsp;&emsp;&lt;li&gt; 
@@ -209,7 +210,7 @@
                                 sizes and diffrent dirctions</p>
                             <hr>
                             <p class="my-1 h1">How to use offcanvas ?</p>
-                            <p class="mb-2">well to use offcanvas component you need to do follwing steps</p>
+                            <p class="mb-2">well to use offcanvas component you need to do following steps</p>
                             <hr>
                             <p class="bg-light p-1 bs-4">
                                 <span class="text-primary fs-md">.offcanvas-end</span> : you need to use it for your div tag (This is right side )
@@ -323,7 +324,7 @@
                             Awsome !</p>
                         <hr>
                         <p class="my-1 h1">How to use Modals ?</p>
-                        <p class="mb-2">well to use Modal component you need to do follwing steps</p>
+                        <p class="mb-2">well to use Modal component you need to do following steps</p>
                         <hr>
                         <p class="bg-light p-1 bs-4">
                             <span class="text-primary fs-md">.modal</span> : you need to use it for your div tag 
@@ -574,20 +575,55 @@
                 <div id="cardC" style="display:none ;">
 
                         <p class="display-6">Card</p>
-                        <p class="mb-1">Imagine Css library has its own Navbar Component which is fully responsive and in smaller sizes the toggle button will be active</p>
-                        <hr>
-                        <p class="my-1 h1">How to use Navbar ?</p>
-                        <p class="mb-2">well to use Navbar component you need to use follwing components</p>
+                        <p class="mb-1">Imagine Css library has its own Card Component , you need To try this ! </p>
+                        <hr class="my-1">
+                        <p class="my-1 h1">How to use Cards ?</p>
+                        <p class="mb-2">well to use Card component you need to use following components</p>
                         <hr>
                         <p class="bg-light p-1 bs-4">
-                            <span class="text-primary fs-md">.navbar</span> : you need to use it for your nav tag 
+                            <span class="text-primary fs-md">.card</span> : in your main div place this class
                             <br>
-                            <span class="text-primary fs-md">.nav-brend</span> : in this tag name your brand name
+                            <span class="text-primary fs-md">.card-header</span> : this is for card header
                             <br>
-                            <span class="text-primary fs-md">.nav-links</span> : in other side use your ul and li in the div with this class
+                            <span class="text-primary fs-md">.card-body</span> : the things like title subtitle 
+                            and text are gonna go into this div with this class
                             <br>
-                            <span class="text-primary fs-md">.toggle-button</span> : use another html tag woth this class and you need to use onlick method with this javascript function (toggleNavbar) inside it
+                            <span class="text-primary fs-md">.card-title</span> : This is for card title <br>
+                            <span class="text-primary fs-md">.card-subtitle</span> : This is for card subtitle <br>
+                            <span class="text-primary fs-md">.card-text</span> : This is for card text the main description and everything... <br>
                         </p>
+                        <hr class="my-2">
+
+                        <p class="h1 mb-1">Example :</p>
+
+                        <div class="p-1 mb-2 bs-3 bg-light">
+                            &lt;<span class="text-danger">div</span> class= "<span class="text-primary">card</span>"&gt;<br>
+                                &emsp;&lt;<span class="text-danger">div</span> class= "<span class="text-primary">card-header</span>"&gt;<br>
+                                    &emsp;&emsp;This is Card Header
+                                <br>&emsp;&lt;<span class="text-danger">/div</span>&gt;<br>
+                                &emsp;&lt;<span class="text-danger">div</span> class= "<span class="text-primary">card-body</span>"&gt;<br>
+                                    &emsp;&emsp;&lt;<span class="text-danger">div</span> class= "<span class="text-primary">card-title</span>"&gt;<br>
+                                        &emsp;&emsp;&emsp; This is Card title
+                                    <br>&emsp;&emsp;&lt;<span class="text-danger">/div</span>&gt;<br>
+                                    &emsp;&emsp;&lt;<span class="text-danger">div</span> class= "<span class="text-primary">card-subtitle</span>"&gt;<br>
+                                        &emsp;&emsp;&emsp;This is Card subtitle
+                                    <br>&emsp;&emsp;&lt;<span class="text-danger">/div</span>&gt;<br>
+                                    &emsp;&emsp;&lt;<span class="text-danger">div</span> class= "<span class="text-primary">card-text</span>"&gt;<br>
+                                        &emsp;&emsp;&emsp;This is Card Text
+                                    <br>&emsp;&emsp;&lt;<span class="text-danger">/div</span>&gt;
+                                <br>&emsp;&lt;<span class="text-danger">/div</span>&gt;
+                            <br>&lt;<span class="text-danger">/div</span>&gt;
+                        </div>
+
+                        <div class="card">
+                            <div class="card-header">This is Card Header</div>
+                            <div class="card-body">
+                                <div class="card-title">This is Card title</div>
+                                <div class="card-subtitle">This is Card subtitle</div>
+                                <div class="card-text">This is Card Text</div>
+                            </div>
+                            
+                        </div>
                     </div>
 
                 <!-- End of Card  -->
@@ -596,20 +632,43 @@
                 <div id="FormsC" style="display:none ;">
 
                         <p class="display-6">Forms</p>
-                        <p class="mb-1">Imagine Css library has its own Navbar Component which is fully responsive and in smaller sizes the toggle button will be active</p>
+                        <p class="mb-1">Imagine Css library has its own Form Component</p>
                         <hr>
-                        <p class="my-1 h1">How to use Navbar ?</p>
-                        <p class="mb-2">well to use Navbar component you need to use follwing components</p>
+                        <p class="my-1 h1">How to use Forms ?</p>
+                        <p class="mb-2">well to use Forms component you need to use following components</p>
                         <hr>
                         <p class="bg-light p-1 bs-4">
-                            <span class="text-primary fs-md">.navbar</span> : you need to use it for your nav tag 
+                            <span class="text-primary fs-md">.form</span> : your main element should have  this class  
                             <br>
-                            <span class="text-primary fs-md">.nav-brend</span> : in this tag name your brand name
+                            <span class="text-primary fs-md">.form-input</span> : this is for your inputs
                             <br>
-                            <span class="text-primary fs-md">.nav-links</span> : in other side use your ul and li in the div with this class
-                            <br>
-                            <span class="text-primary fs-md">.toggle-button</span> : use another html tag woth this class and you need to use onlick method with this javascript function (toggleNavbar) inside it
+                            <span class="text-primary fs-md">.form-label</span> : this is for your labels
                         </p>
+                        <hr class="my-2">
+
+                        <p class="h1 mb-1">Example :</p>
+
+                        <div class="p-1 mb-2 bs-1 bg-light">
+                            &lt;<span class="text-danger">form</span> class= "<span class="text-primary">form</span>"&gt;<br>
+                                &emsp;&lt;<span class="text-danger">label</span> class= "<span class="text-primary">form-label</span>"&gt;<br>
+                                    &emsp;&emsp;This is form label
+                                <br>&emsp;&lt;<span class="text-danger">/label</span>&gt;<br>
+                                    &emsp;&lt;<span class="text-danger">input</span> class= "<span class="text-primary">form-input</span>
+                                    placeholder = "this is form input "&gt;<br>
+                                    &emsp;&lt;<span class="text-danger">label</span> class= "<span class="text-primary">form-label</span>"&gt;<br>
+                                    &emsp;&emsp;This is another form label
+                                <br>&emsp;&lt;<span class="text-danger">/label</span>&gt;<br>
+                                    &emsp;&lt;<span class="text-danger">input</span> class= "<span class="text-primary">form-input</span>
+                                    placeholder = "this is another form input "&gt;
+                            <br>&lt;<span class="text-danger">/form</span>&gt;
+                        </div>
+
+                        <form class="form mt-3">
+                            <label class="form-label">This is Form label</label>
+                            <input type="text" class="form-input" placeholder="This is form input">
+                            <label class="form-label">This is another Form label</label>
+                            <input type="text" class="form-input" placeholder="This is another form input">
+                        </form>
                     </div>
 
                 <!-- End of Forms  -->    
@@ -621,7 +680,7 @@
                         <p class="mb-1">Imagine Css library has its own Navbar Component which is fully responsive and in smaller sizes the toggle button will be active</p>
                         <hr>
                         <p class="my-1 h1">How to use Navbar ?</p>
-                        <p class="mb-2">well to use Navbar component you need to use follwing components</p>
+                        <p class="mb-2">well to use Navbar component you need to use following components</p>
                         <hr>
                         <p class="bg-light p-1 bs-4">
                             <span class="text-primary fs-md">.navbar</span> : you need to use it for your nav tag 
@@ -643,7 +702,7 @@
                         <p class="mb-1">Imagine Css library has its own Navbar Component which is fully responsive and in smaller sizes the toggle button will be active</p>
                         <hr>
                         <p class="my-1 h1">How to use Navbar ?</p>
-                        <p class="mb-2">well to use Navbar component you need to use follwing components</p>
+                        <p class="mb-2">well to use Navbar component you need to use following components</p>
                         <hr>
                         <p class="bg-light p-1 bs-4">
                             <span class="text-primary fs-md">.navbar</span> : you need to use it for your nav tag 
