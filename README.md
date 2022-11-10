@@ -1,3 +1,3 @@
 # imagine-css-library
 
-The Code Demo Documentation is on https://imagineno1.github.io/imagine-css-library/ Check it out for installation and others ...
+
